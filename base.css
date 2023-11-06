@@ -35,27 +35,42 @@ h6 {
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 3.6em;
 }
 
 h2 {
-  font-size: 2.6em;
+  font-size: 3.2em;
 }
 
 h3 {
-  font-size: 2.2em;
+  font-size: 2.6em;
 }
 
 h4 {
-  font-size: 1.8em;
+  font-size: 2.2em;
 }
 
 h5 {
-  font-size: 1.4em;
+  font-size: 1.8em;
 }
 
 h6 {
-  font-size: 1.2em;
+  font-size: 1.4em;
+}
+
+@media screen and (max-width: 600px)) {
+  h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 2.25em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
 }
 
 img,
