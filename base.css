@@ -1,0 +1,189 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  line-height: 1.15;
+  text-size-adjust: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: var(--bg-color);
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.6;
+  font-size: var(--font-size);
+  color: var(--font-color);
+  font-family: var(--font-family);
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+  margin: 0.3em 0 0.1em;
+  font-family: var(--font-family-heading);
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2.6em;
+}
+
+h3 {
+  font-size: 2.2em;
+}
+
+h4 {
+  font-size: 1.8em;
+}
+
+h5 {
+  font-size: 1.4em;
+}
+
+h6 {
+  font-size: 1.2em;
+}
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+  border-radius: var(--radius);
+}
+
+p > img {
+  float: left;
+  padding: var(--padding);
+}
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+a {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+a:hover:not(.button) {
+  opacity: 0.75;
+}
+
+button {
+  font-family: inherit;
+}
+
+p {
+  margin-top: 0;
+}
+
+blockquote {
+  background-color: var(--lightGrey);
+  padding: 1.5rem 2rem;
+  border-left: 3px solid var(--darkGrey);
+}
+
+dl dt {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: var(--prmary-color);
+}
+
+dl dd {
+  margin-left: 0;
+  font-style: italic;
+}
+
+hr {
+  border: none;
+  background-color: var(--lightGrey);
+  height: 1px;
+  margin: calc(2*var(--margin)) 0;
+}
+
+table {
+  width: 100%;
+  border: 1px solid var(--lightGrey);
+  border-collapse: collapse;
+  border-spacing: 0;
+  text-align: left;
+}
+
+table tr:nth-of-type(2n) {
+  background-color: var(--lightGrey);
+}
+
+td,
+th {
+  vertical-align: middle;
+  padding: 1.2rem 0.4rem;
+  border: 1px solid lightGrey;
+}
+
+thead {
+  background: var(--primary-color);
+  color: var(--white);
+}
+
+tfoot {
+  background: var(--secondary-color);
+  color: var(--white);
+}
+
+code,
+kbd,
+pre,
+samp,
+tt {
+  font-family: var(--font-family-mono);
+}
+
+code,
+kbd {
+  font-size: 90%;
+  white-space: pre-wrap;
+  border-radius: 4px;
+  padding: 0.2em 0.4em;
+  background-color: var(--darkGrey);
+  color: var(--white);
+}
+
+pre {
+  background-color: var(--darkGrey);
+  font-size: 1em;
+  padding: 1rem;
+  overflow-x: auto;
+}
+
+pre code {
+  background: none;
+  padding: 0;
+}
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  text-decoration: underline dotted;
+}
+
+fieldset {
+  border: 1px solid var(--lightGrey);
+}
+
+iframe {
+  border: 0;
+}
