@@ -1,0 +1,48 @@
+.tabs {
+  display: flex;
+  align-items: center;
+}
+
+.tabs a {
+  text-decoration: none;
+}
+
+.tabs > .dropdown > summary,
+.tabs > a {
+  padding: 1rem 2rem;
+  flex: 0 1 auto;
+  color: var(--darkGrey);
+  border: 1px solid var(--lightGrey);
+  border-left: none;
+  border-bottom: 2px solid var(--lightGrey);
+  text-align: center;
+  max-height: 3em;
+}
+
+.tabs > .dropdown > summary:first-child,
+.tabs > a:first-child {
+  border-left: 1px solid var(--lightGrey);
+}
+
+.tabs > a[aria-current="page"],
+.tabs > a.active,
+.tabs > a:hover {
+  opacity: 1;
+  border-bottom: 2px solid var(--darkGrey);
+  background: var(--lightGrey);
+}
+
+.tabs > a[aria-current="page"],
+.tabs > a.active {
+  border-bottom-color: var(--primary-color);
+  background: none;
+}
+
+.tabs > a[aria-current="page"]:hover,
+.tabs > a.active:hover {
+  background: var(--lightGrey);
+}
+
+.tabs.full a {
+  flex: 1 1 auto;
+}
