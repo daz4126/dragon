@@ -1,0 +1,137 @@
+.float-end {
+  float: right !important;
+}
+
+.float-start {
+  float: left !important;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-lowercase {
+  text-transform: lowercase;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+.full-screen {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.full-width {
+  width: 100% !important;
+}
+
+.align-vertical {
+  display: flex;
+  align-items: center;
+}
+
+.align-horizontal {
+  display: flex;
+  justify-content: center;
+}
+
+.align-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.align-right {
+  display: flex;
+  align-items: right;
+  justify-content: flex-end;
+}
+
+.align-left {
+  display: flex;
+  align-items: left;
+  justify-content: flex-start;
+}
+
+.fixed {
+  position: fixed;
+  width: 100%;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+.no-margin {
+  margin: 0 !important;
+}
+
+.pointer {
+  cursor: pointer !important;
+}
+
+.rounded {
+  border-radius: var(--radius);
+}
+
+.circle {
+  border-radius: 100%;
+}
+
+.clearfix, p:has(img)::after, .float-end::after, .float-start::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.hidden {
+  display: none !important;
+}
+
+@media screen and (max-width: 400px)) {
+  .hide-xs {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 600px)) {
+  .hide-sm {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width:900px)) {
+  .hide-md {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hide-lg {
+    display: none !important;
+  }
+}
+
+@media print {
+  .hide-pr {
+    display: none !important;
+  }
+}
