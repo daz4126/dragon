@@ -1,7 +1,7 @@
 :root {
   --bg-color: #fff;
-  --primary-color: var(--OGreen);
   --secondary-color: var(--FMauve);
+  --primary-color: var(--OGreen);
   --JOGwhite: #e6e7e8;
   --OGreen: #3D9970;
   --FMauve: #9575cd;
@@ -30,9 +30,9 @@
     "Avenir Next", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
     "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   --font-family-mono: monaco, "Consolas", "Lucida Console", monospace;
-  --font-family-heading: "Alfa Slab One", serif;
-  --margin: 1.5rem;
-  --padding: 1rem;
-  --border-width: 1px;
-  --radius: 1rem;
+    --font-family-heading: "Bebas Neue", serif;
+    --margin: 1.5rem;
+    --padding: 1rem;
+    --border-width: 1px;
+    --radius: 1rem;
 }
