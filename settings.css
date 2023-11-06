@@ -1,0 +1,38 @@
+:root {
+  --bg-color: #fff;
+  --primary-color: var(--OGreen);
+  --secondary-color: var(--FMauve);
+  --JOGwhite: #e6e7e8;
+  --OGreen: #3D9970;
+  --FMauve: #9575cd;
+  --white: var(--JOGwhite);
+  --lightGrey: #d2d6dd;
+  --grey: #6a737d;
+  --darkGrey: #3f4144;
+  --maroon: #85144b;
+  --red: #d73a49;
+  --blue: #0366d6;
+  --green: #28a745;
+  --yellow: #FFDC00;
+  --orange: #f66a0a;
+  --pink: #F012BE;
+  --navy: #001f3f;
+  --teal: #029fa1;
+  --purple: #6f42c1;
+  --error-color: var(--red);
+  --warning-color: var(--yellow);
+  --success-color: var(--green);
+  --grid-maxWidth: 120rem;
+  --grid-gutter: 2rem;
+  --font-size: 1.6rem;
+  --font-color: #696969;
+  --font-family: -apple-system, "BlinkMacSystemFont", "Avenir",
+    "Avenir Next", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  --font-family-mono: monaco, "Consolas", "Lucida Console", monospace;
+  --font-family-heading: "Alfa Slab One", serif;
+  --margin: 1.5rem;
+  --padding: 1rem;
+  --border-width: 1px;
+  --radius: 1rem;
+}
