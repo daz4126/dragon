@@ -1,0 +1,242 @@
+fieldset {
+  padding: 0.5rem 2rem;
+}
+
+legend {
+  text-transform: uppercase;
+  font-size: 0.8em;
+  letter-spacing: 0.1rem;
+}
+
+input:not([type="checkbox"], [type="radio"], [type="submit"], [type="color"], [type="button"], [type="reset"]),
+select,
+textarea,
+textarea[type="text"] {
+  font-family: inherit;
+  padding: var(--padding);
+  border-radius: var(--radius);
+  border: 1px solid var(--lightGrey);
+  font-size: 1em;
+  transition: all 0.2s ease;
+  display: block;
+  width: 100%;
+}
+
+select {
+  appearance: none;
+  background: #f3f3f6 no-repeat 100%;
+  background-size: 1ex;
+  background-origin: content-box;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='60' height='40' fill='%23555'><polygon points='0,0 60,0 30,40'/></svg>");
+}
+
+.button,
+[type="button"],
+[type="reset"],
+[type="submit"],
+button {
+  padding: var(--padding);
+  color: var(--white);
+  background: var(--primary-color);
+  border-radius: var(--radius);
+  border: 1px solid transparent;
+  font-size: var(--font-size);
+  line-height: 1;
+  text-align: center;
+  transition: opacity 0.2s ease;
+  text-decoration: none;
+  transform: scale(1);
+  display: inline-block;
+  cursor: pointer;
+}
+
+.button.primary,
+.button.secondary,
+.button.dark,
+.button.error,
+.button.success,
+.button.warning,
+[type="submit"] {
+  color: #fff;
+  z-index: 1; /* highlight from other button's border when grouped */
+  background-color: var(--primary-color);
+}
+
+.button:hover,
+[type="button"]:hover,
+[type="reset"]:hover,
+[type="submit"]:hover,
+button:hover {
+  opacity: 0.8;
+}
+
+input:disabled,
+input:disabled:hover,
+button:disabled,
+button:disabled:hover {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.grouped {
+  display: flex;
+}
+
+.grouped > *:not(:last-child) {
+  margin-right: 16px;
+}
+
+.grouped.gapless > * {
+  margin: 0 0 0 -1px !important;
+  border-radius: 0 !important;
+}
+
+.grouped.gapless > *:first-child {
+  margin: 0 !important;
+  border-radius: 4px 0 0 4px !important;
+}
+
+.grouped.gapless > *:last-child {
+  border-radius: 0 4px 4px 0 !important;
+}
+
+input:not([type="checkbox"], [type="radio"], [type="submit"], [type="color"], [type="button"], [type="reset"], :disabled){
+  background: var(--lightGrey);
+  color: var(--darkGrey);
+  border-radius: var(--radius);
+  margin: var(--margin) 0;
+  max-width: 40rem;
+}
+
+input:not([type="checkbox"], [type="radio"], [type="submit"], [type="color"], [type="button"], [type="reset"], :disabled):hover,
+select:hover,
+textarea:hover,
+textarea[type="text"]:hover {
+  border-color: var(--secondary-color);
+}
+
+input:not([type="checkbox"], [type="radio"], [type="submit"], [type="color"], [type="button"], [type="reset"]):focus,
+select:focus,
+textarea:focus,
+textarea[type="text"]:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 1px var(--primary-color);
+}
+
+input.error:not([type="checkbox"], [type="radio"], [type="submit"], [type="color"], [type="button"], [type="reset"]),
+textarea.error {
+  border-color: var(--error-color);
+}
+
+input.success:not([type="checkbox"], [type="radio"], [type="submit"], [type="color"], [type="button"], [type="reset"]),
+textarea.success {
+  border-color: var(--success-color);
+}
+
+
+input.warning:not([type="checkbox"], [type="radio"], [type="submit"], [type="color"], [type="button"], [type="reset"]),
+textarea.warning {
+  border-color: var(--warning-color);
+}
+
+[type="checkbox"],
+[type="radio"] {
+  width: 2rem;
+  height: 1.6rem;
+}
+
+/* BUTTONS */
+
+.button + .button {
+  margin-left: 1rem;
+}
+
+.button.secondary {
+  background-color: var(--grey);
+}
+
+.button.dark {
+  background-color: var(--darkGrey);
+}
+
+.button.error {
+  background-color: var(--error-color);
+}
+
+.button.success {
+  background-color: var(--success-color);
+}
+
+.button.warning {
+  background-color: var(--warning-color);
+}
+
+.button.outline {
+  background-color: transparent;
+  border-color: var(--lightGrey);
+}
+
+.button.outline.primary {
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+}
+
+.button.outline.secondary {
+  border-color: var(--grey);
+  color: var(--grey);
+}
+
+.button.outline.dark {
+  border-color: var(--darkGrey);
+  color: var(--darkGrey);
+}
+
+a.button.outline, button.outline{
+  background: transparent !important;
+}
+
+.button.clear {
+  background-color: transparent;
+  border-color: transparent;
+  color: var(--primary-color);
+}
+.button.icon {
+  display: inline-flex;
+  align-items: center;
+}
+
+.button.icon > img {
+  margin-left: 2px;
+}
+
+.button.icon-only {
+  padding: 1rem;
+}
+
+.button:active:not(:disabled),
+[type="button"]:active:not(:disabled),
+[type="reset"]:active:not(:disabled),
+[type="submit"]:active:not(:disabled),
+button:active:not(:disabled) {
+  transform: scale(0.98);
+}
+
+::placeholder {
+  color: #bdbfc4;
+}
+
+label.error, label.success,label.warning{
+  background: var(--error-color);
+  color: var(--white);
+  padding: var(--padding);
+  border-radius: var(--radius);
+}
+
+label.success{
+  background: var(--success-color);
+}
+
+label.warning{
+  background: var(--warning-color);
+}
