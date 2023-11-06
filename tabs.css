@@ -14,7 +14,7 @@
   color: var(--darkGrey);
   border: 1px solid var(--lightGrey);
   border-left: none;
-  border-bottom: 2px solid var(--lightGrey);
+  border-bottom: 3px solid var(--lightGrey);
   text-align: center;
   max-height: 3em;
 }
