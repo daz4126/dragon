@@ -1,4 +1,5 @@
 :root {
+/** settings  */
   --bg-color: #fff;
   --secondary-color: var(--FMauve);
   --primary-color: var(--OGreen);
@@ -29,10 +30,11 @@
   --font-family: -apple-system, "BlinkMacSystemFont", "Avenir",
     "Avenir Next", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
     "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-  --font-family-mono: monaco, "Consolas", "Lucida Console", monospace;
-    --font-family-heading: "Bebas Neue", serif;
-    --margin: 1.5rem;
-    --padding: 1rem;
-    --border-width: 1px;
-    --radius: 1rem;
+  --mono-font: monaco, "Consolas", "Lucida Console", monospace;
+  --heading-font: "Bebas Neue", serif;
+  --heading-color: var(--darkGrey);
+  --margin: 1.5rem;
+  --padding: 1rem;
+  --border-width: 1px;
+  --radius: 1rem;
 }
