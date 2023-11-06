@@ -1,0 +1,17 @@
+.JOG,.brand {
+  font-family: Monoton, sans-serif;
+  letter-spacing: -0.04em;
+  color: var(--JOGwhite);
+}
+
+.J {
+  color: var(--FMauve);
+}
+
+.G {
+  color: var(--OGreen);
+}
+
+h1.JOG,h1.brand{
+  font-size: 72px;
+}
