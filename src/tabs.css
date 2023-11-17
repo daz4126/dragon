@@ -14,7 +14,7 @@
   color: var(--darkGrey);
   border: 1px solid var(--lightGrey);
   border-left: none;
-  border-bottom: 3px solid var(--lightGrey);
+  border-bottom: 2px solid var(--lightGrey);
   text-align: center;
   max-height: 3em;
 }
@@ -28,7 +28,7 @@
 .tabs > a.active,
 .tabs > a:hover {
   opacity: 1;
-  border-bottom: 2px solid var(--darkGrey);
+  border-bottom: 3px solid var(--darkGrey);
   background: var(--lightGrey);
 }
 
@@ -45,4 +45,22 @@
 
 .tabs.full a {
   flex: 1 1 auto;
+}
+
+.tabs.vertical {
+   flex-direction: column;
+}
+
+.tabs.vertical > a{
+  border-left: 1px solid var(--lightGrey);
+  border-bottom: none;
+  width: 100%;
+}
+
+.tabs.vertical > a:last-child{
+  border-bottom: 1px solid var(--lightGrey);
+}
+
+.tabs.vertical > a.active, .tabs.vertical > a[aria-current="page"]{
+  border-left: 6px solid var(--primary-color);
 }
