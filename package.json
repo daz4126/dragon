@@ -1,0 +1,32 @@
+{
+  "name": "jog-css",
+  "version": "1.0.0",
+  "description": "A teeny tiny CSS framework",
+  "source": "src/jog.css",
+  "main": "src/jog.css",  
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "parcel watch",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daz4126/JOG-css.git"
+  },
+  "keywords": [
+    "css",
+    "minimal",
+    "classless",
+    "teeny",
+    "tiny"
+  ],
+  "devDependencies": {
+      "parcel": "latest"
+    },
+  "author": "JOG",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daz4126/JOG-css/issues"
+  },
+  "homepage": "https://github.com/daz4126/JOG-css#readme"
+}
