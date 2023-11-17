@@ -1,9 +1,9 @@
 {
   "name": "jog-css",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A teeny tiny CSS framework",
   "source": "src/jog.css",
-  "main": "src/jog.css",  
+  "main": "src/jog.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "parcel watch",
@@ -21,8 +21,8 @@
     "tiny"
   ],
   "devDependencies": {
-      "parcel": "latest"
-    },
+    "parcel": "latest"
+  },
   "author": "JOG",
   "license": "ISC",
   "bugs": {
