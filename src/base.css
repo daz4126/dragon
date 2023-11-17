@@ -184,7 +184,3 @@ abbr[title] {
 fieldset {
   border: 1px solid var(--lightGrey);
 }
-
-iframe {
-  border: 0;
-}
