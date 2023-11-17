@@ -1,40 +1,55 @@
 :root {
-/** settings  */
-  --bg-color: #fff;
-  --secondary-color: var(--FMauve);
-  --primary-color: var(--OGreen);
-  --JOGwhite: #e6e7e8;
-  --OGreen: #3D9970;
-  --FMauve: #9575cd;
-  --white: var(--JOGwhite);
-  --lightGrey: #d2d6dd;
-  --grey: #6a737d;
-  --darkGrey: #3f4144;
-  --maroon: #85144b;
-  --red: #d73a49;
-  --blue: #0366d6;
-  --green: #28a745;
-  --yellow: #FFDC00;
-  --orange: #f66a0a;
-  --pink: #F012BE;
-  --navy: #001f3f;
-  --teal: #029fa1;
-  --purple: #6f42c1;
-  --error-color: var(--red);
-  --warning-color: var(--yellow);
-  --success-color: var(--green);
-  --grid-maxWidth: 120rem;
-  --grid-gutter: 2rem;
-  --font-size: 1.6rem;
-  --font-color: #696969;
-  --font-family: -apple-system, "BlinkMacSystemFont", "Avenir",
-    "Avenir Next", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
-    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-  --mono-font: monaco, "Consolas", "Lucida Console", monospace;
-  --heading-font: "Bebas Neue", serif;
-  --heading-color: var(--darkGrey);
-  --margin: 1.5rem;
-  --padding: 1rem;
-  --border-width: 1px;
-  --radius: 1rem;
-}
+    --bg-color: #fff;
+    --secondary-color: var(--FMauve);
+    --primary-color: var(--OGreen);
+    --JOGwhite: #e6e7e8;
+    --OGreen: #3D9970;
+    --FMauve: #9575cd;
+    --white: var(--JOGwhite);
+    --lightGrey: #d2d6dd;
+    --grey: #6a737d;
+    --darkGrey: #3f4144;
+    --maroon: #85144b;
+    --lightRed: #ff6970;
+    --red: #f5002f;
+    --darkRed: #800400;
+    --lightBlue: #d9edfc;
+    --blue: #0085ca;
+    --darkBlue: #1b365d;
+    --lightGreen: #b5e8bf;
+    --green: #28a745;
+    --darkGreen: #005e5d;
+    --lightYellow: #f2f0a1;
+    --yellow: #FFDC00;
+    --darkYellow: #f1b434;
+    --lightOrange: #ff9d6e;
+    --orange: #ff9e1b;
+    --darkOrange: #d45d00;
+    --lightPink: #fadeff;
+    --pink: #ffb3db;
+    --darkPink: #a15a95;
+    --lightPurple: #c7b1dd;
+    --purple: #6f42c1;
+    --darkPurple: #3c1053;
+    --lightBrown: #d7c4b7;
+    --brown: #99897c;
+    --darkBrown: #4e3629;
+    --error-color: var(--red);
+    --warning-color: var(--yellow);
+    --success-color: var(--green);
+    --gradient: linear-gradient(135deg, var(--orange), var(--pink), var(--purple));
+    --grid-maxWidth: 120rem;
+    --grid-gutter: 2rem;
+    --font-size: 1.6rem;
+    --font-color: #696969;
+    --font-family: -apple-system, "BlinkMacSystemFont", "Avenir",
+      "Avenir Next", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+      "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    --mono-font: monaco, "Consolas", "Lucida Console", monospace;
+    --heading-font: "Bebas Neue", serif;
+    --heading-color: var(--darkGrey);
+    --margin: 1.5rem;
+    --padding: 1rem;
+    --border-width: 3px;
+    --radius: 1.4rem;
+  }

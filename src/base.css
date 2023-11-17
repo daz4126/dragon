@@ -31,59 +31,32 @@ h5,
 h6 {
   font-weight: 500;
   margin: 0.3em 0 0.1em;
-  font-family: var(--font-family-heading);
+  font-family: var(--heading-font);
   color: var(--heading-color);
 }
 
-h1 {
+h1,.h1,.big-text {
   font-size: 3.6em;
 }
 
-h2 {
+h2,.h2 {
   font-size: 3.2em;
 }
 
-h3 {
+h3,.h3 {
   font-size: 2.6em;
 }
 
-h4 {
+h4,.h4 {
   font-size: 2.2em;
 }
 
-h5 {
+h5,.h5 {
   font-size: 1.8em;
 }
 
-h6 {
+h6,.h6 {
   font-size: 1.4em;
-}
-
-@media screen and (max-width: 600px)) {
-  h1 {
-  font-size: 2.8em;
-}
-
-h2 {
-  font-size: 2.4em;
-}
-
-h3 {
-  font-size: 2em;
-}
-
-h4 {
-  font-size: 1.8em;
-}
-
-h5 {
-  font-size: 1.5em;
-}
-
-h6 {
-  font-size: 1.2em;
-}
-
 }
 
 img,
@@ -95,7 +68,7 @@ picture {
 
 p > img {
   float: left;
-  padding: var(--padding);
+  margin: 0 var(--margin) var(--margin) 0;
 }
 
 a:not([class]) {
@@ -177,7 +150,7 @@ kbd,
 pre,
 samp,
 tt {
-  font-family: var(--font-family-mono);
+  font-family: var(--mono-font);
 }
 
 code,

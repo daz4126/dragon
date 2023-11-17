@@ -1,0 +1,16 @@
+.gradient{
+    background: var(--gradient);
+  }
+  
+  .gradient-text{
+    background: var(--gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    background-size: 100%;
+    -webkit-box-decoration-break: clone;
+    display: inline-block;
+  }
