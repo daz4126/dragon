@@ -52,4 +52,8 @@
     --padding: 1rem;
     --border-width: 3px;
     --radius: 1.4rem;
+
+    --grid-columns: 3;
+	  --grid-min-width: 200px;
+	  --grid-gap: 20px;
   }
