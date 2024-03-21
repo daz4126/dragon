@@ -1,5 +1,5 @@
 .JOG,.brand {
-  font-family: Monoton, sans-serif;
+  font-family: var(--brand-font);
   letter-spacing: -0.04em;
   color: var(--JOGwhite);
 }

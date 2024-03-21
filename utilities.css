@@ -6,34 +6,6 @@
   float: left !important;
 }
 
-.text-center {
-  text-align: center;
-}
-
-.text-left {
-  text-align: left;
-}
-
-.text-right {
-  text-align: right;
-}
-
-.text-justify {
-  text-align: justify;
-}
-
-.text-uppercase {
-  text-transform: uppercase;
-}
-
-.text-lowercase {
-  text-transform: lowercase;
-}
-
-.text-capitalize {
-  text-transform: capitalize;
-}
-
 .full-screen {
   width: 100%;
   min-height: 100vh;
@@ -124,11 +96,6 @@
   margin: 0 !important;
 }
 
-.box{
-  padding: var(--padding);
-  margin: var(--margin) auto;
-}
-
 .pointer {
   cursor: pointer !important;
 }
@@ -164,13 +131,6 @@
   padding: 0;
 }
 
-.italic{
-  font-style: italic;
-}
-
-.bold{
-  font-weight: bold;
-}
 
 @media screen and (max-width: 400px) {
   .hide-xs {
