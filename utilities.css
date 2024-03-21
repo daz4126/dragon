@@ -131,6 +131,9 @@
   padding: 0;
 }
 
+.glow{
+  text-shadow: 0 0 6px currentcolor;
+}
 
 @media screen and (max-width: 400px) {
   .hide-xs {

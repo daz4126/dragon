@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Monoton&family=Bebas+Neue&display=swap');
 @import "settings.css";
 @import "base.css";
-@import "grids.css";
+@import "typography.css";
+@import "tables.css";
+@import "buttons.css";
+@import "grid.css";
 @import "forms.css";
 @import "nav.css";
 @import "card.css";
 @import "tabs.css";
-@import "tags.css";
+@import "tag.css";
 @import "utilities.css";
 @import "colours.css";
 @import "brand.css";

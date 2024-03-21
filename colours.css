@@ -50,6 +50,9 @@
 .lightBrown-border {border: var(--border-width) solid var(--lightBrown) !important;}
 .brown-border {border: var(--border-width) solid var(--brown) !important;}
 .darkBrown-border {border: var(--border-width) solid var(--darkBrown) !important;}
+.neonPink-border {border: var(--border-width) solid var(--neonPink) !important;}
+.neonBlue-border {border: var(--border-width) solid var(--neonBlue) !important;}
+.neonYellow-border {border: var(--border-width) solid var(--neonYellow) !important;}
 
 .primary { background: var(--primary-color) !important;}
 .secondary { background: var(--secondary-color) !important;}
@@ -83,6 +86,9 @@
 .lightGrey { background: var(--lightGrey) !important; }
 .darkGrey { background: var(--darkGrey) !important; }
 .black { background: var(--black)!important; }
+.neonPink {background: var(--neonPink) !important; }
+.neonYellow {background: var(--neonYellow) !important; }
+.neonBlue {background: var(--neonBlue) !important; }
 
 .primary-text { color: var(--primary-color) !important;}
 .secondary-text { color: var(--secondary-color) !important;}
@@ -119,3 +125,6 @@
 .error-text { color: var(--error-color) !important;}
 .success-text { color: var(--success-color) !important;}
 .warning-text { color: var(--warning-color) !important; }
+.neonPink-text { color: var(--neonPink) !important; }
+.neonBlue-text { color: var(--neonBlue) !important; }
+.neonYellow-text { color: var(--neonYellow) !important; }

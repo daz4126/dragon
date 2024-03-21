@@ -37,7 +37,12 @@
     --error-color: var(--red);
     --warning-color: var(--yellow);
     --success-color: var(--green);
-    --gradient: linear-gradient(135deg, var(--orange), var(--pink), var(--purple));
+    --neonPink: #f40099;
+    --neonYellow: #f5e43c;
+    --neonBlue: #00f7f7;
+
+    --gradient: linear-gradient(135deg, var(--neonYellow), var(--neonPink), var(--neonBlue));
+    
     --grid-maxWidth: 120rem;
     --grid-gutter: 2rem;
     --font-size: 1.6rem;
@@ -47,11 +52,16 @@
       "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     --mono-font: monaco, "Consolas", "Lucida Console", monospace;
     --heading-font: "Bebas Neue", serif;
+    --brand-font: "Monoton", sans-serif;
     --heading-color: var(--darkGrey);
     --margin: 1.5rem;
     --padding: 1rem;
     --border-width: 3px;
     --radius: 1.4rem;
+
+    --small-screen: 480px;
+    --medium-screen: 720px;
+    --big-screen: 1080px;
 
     --grid-columns: 3;
 	  --grid-min-width: 200px;
