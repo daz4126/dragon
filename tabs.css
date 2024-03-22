@@ -25,22 +25,14 @@
 }
 
 .tabs > a[aria-current="page"],
-.tabs > a.active,
 .tabs > a:hover {
   opacity: 1;
-  border-bottom: 3px solid var(--darkGrey);
-  background: var(--lightGrey);
+  background: var(--tab-hover-color);
 }
 
 .tabs > a[aria-current="page"],
 .tabs > a.active {
-  border-bottom-color: var(--primary-color);
-  background: none;
-}
-
-.tabs > a[aria-current="page"]:hover,
-.tabs > a.active:hover {
-  background: var(--lightGrey);
+  background: var(--tab-active-color);
 }
 
 .tabs.full a {
@@ -59,8 +51,4 @@
 
 .tabs.vertical > a:last-child{
   border-bottom: 1px solid var(--lightGrey);
-}
-
-.tabs.vertical > a.active, .tabs.vertical > a[aria-current="page"]{
-  border-left: 6px solid var(--primary-color);
 }
