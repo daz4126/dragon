@@ -1,7 +1,7 @@
 :root {
     --bg-color: #232349;
-    --secondary-color: var(--FMauve);
     --primary-color: var(--OGreen);
+    --secondary-color: var(--FMauve);
     --JOGwhite: #e6e7e8;
     --OGreen: #3D9970;
     --FMauve: #9575cd;
@@ -9,7 +9,6 @@
     --lightGrey: #d2d6dd;
     --grey: #6a737d;
     --darkGrey: #3f4144;
-    --maroon: #85144b;
     --lightRed: #ff6970;
     --red: #f5002f;
     --darkRed: #800400;
