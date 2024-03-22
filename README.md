@@ -11,10 +11,10 @@ Dragon uses CSS variables that can easily be overwritten to customize how it beh
 The easiest grid system you'll ever see that allows you to create complex layouts that won't break.
 
 ## Colorful
-Lots of built-in color classes to easily change text and background colors.
+Lots of built-in color classes to easily change text and background colors!
 
-## Nift Components
-Cards, Tabs, Tags
+## Nifty Components
+Cards, Tabs, Tags can be created with a single class!
 
 ## And Some Nifty Utility Classes
-Add a drop-shadow, make text glow or mute an element by just adding a simple class.
+Add a drop-shadow, make text glow or mute an element by just adding a class!
