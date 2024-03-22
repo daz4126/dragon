@@ -84,12 +84,28 @@
   padding: var(--padding);
 }
 
-.margin {
-  margin: var(--margin);
+.padding-horizontal {
+  padding: 0 var(--padding);
+}
+
+.padding-vertical {
+  padding: var(--padding) 0;
 }
 
 .no-padding {
   padding: 0 !important;
+}
+
+.margin {
+  margin: var(--margin);
+}
+
+.margin-horizontal {
+  margin: 0 var(--margin);
+}
+
+.margin-vertical {
+  margin: var(--margin) 0;
 }
 
 .no-margin {

@@ -1,5 +1,5 @@
 :root {
-    --bg-color: #fff;
+    --bg-color: #232349;
     --secondary-color: var(--FMauve);
     --primary-color: var(--OGreen);
     --JOGwhite: #e6e7e8;
@@ -37,27 +37,38 @@
     --error-color: var(--red);
     --warning-color: var(--yellow);
     --success-color: var(--green);
-    --neonPink: #f40099;
-    --neonYellow: #f5e43c;
-    --neonBlue: #00f7f7;
+    --neonPink: #fa1afa;
+    --neonYellow: #effb11;
+    --neonBlue: #13fbfb;
+    --neonGreen: #8cf622;
 
     --gradient: linear-gradient(135deg, var(--neonYellow), var(--neonPink), var(--neonBlue));
     
     --grid-maxWidth: 120rem;
     --grid-gutter: 2rem;
     --font-size: 1.6rem;
-    --font-color: #696969;
+    --font-color: var(--JOGwhite);
     --font-family: -apple-system, "BlinkMacSystemFont", "Avenir",
       "Avenir Next", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
       "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     --mono-font: monaco, "Consolas", "Lucida Console", monospace;
     --heading-font: "Bebas Neue", serif;
     --brand-font: "Monoton", sans-serif;
-    --heading-color: var(--darkGrey);
-    --margin: 1.5rem;
+    --heading-color: var(--neonBlue);
+    --margin: 1.4rem;
+    --mini-margin: 2px;
     --padding: 1rem;
     --border-width: 3px;
     --radius: 1.4rem;
+
+    --tab-text-color: var(--fontcolor);
+    --tab-bg--color: none;
+    --tab-hover-color: var(--lightGrey);
+    --tab-active-color: none;
+
+    --tag-text-color: var(--fontcolor);
+    --tag-bg--color: none;
+    --tag-border-color: var(--lightGrey);
 
     --small-screen: 480px;
     --medium-screen: 720px;

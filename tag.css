@@ -1,8 +1,10 @@
 .tag {
   display: inline-block;
-  border: 1px solid var(--lightGrey);
-  border-radius: var(--radius);
+  border: 1px solid var(--tag-border-color);
+  background: var(--tag-bg-color);
+  color: var(--tag-text-color);
+  border-radius: 5px;
   padding: 0.4rem;
-  line-height: 1;
   font-size: 0.8em;
+  margin: var(--mini-margin);
 }

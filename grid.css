@@ -1,7 +1,7 @@
 .grid {
   display: grid;
   gap: var(--grid-gap);
-  padding: 0 var(--grid-gap);
+  padding: var(--grid-gap);
   grid-template-columns: 1fr;
 }
 
@@ -9,7 +9,7 @@
 .grid.big-gap{ --grid-gap: 30px; }
 .grid.no-gap{ --grid-gap: 0 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 600px) {
   .grid {
     grid-template-columns:
     repeat(var(--grid-columns), minmax(var(--grid-min-width), 1fr));
