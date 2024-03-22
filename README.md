@@ -5,7 +5,7 @@ A teeny tiny but powerful CSS framework that breaths 🔥
 Adding Dragon to your project will breathe some fire onto your HTML and make it look great without adding any classes. Typography flows properly, headings look good, tables look lovely and forms and buttons are much easier to use.
 
 ## Customizable
-Dragon uses CSS variables that can easily be overwritten to customize how it behaves.
+Dragon uses CSS variables that can easily be overwritten to customize it for your project.
 
 ## Simple yet Powerful Responsive Grids
 The easiest grid system you'll ever see that allows you to create complex layouts that won't break.
