@@ -33,6 +33,7 @@
     --lightBrown: #d7c4b7;
     --brown: #99897c;
     --darkBrown: #4e3629;
+    --black: #222;
     --error-color: var(--red);
     --warning-color: var(--yellow);
     --success-color: var(--green);
