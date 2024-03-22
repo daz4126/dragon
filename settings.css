@@ -5,7 +5,7 @@
     --JOGwhite: #e6e7e8;
     --OGreen: #3D9970;
     --FMauve: #9575cd;
-    --white: var(--JOGwhite);
+    --white: #fff;
     --lightGrey: #d2d6dd;
     --grey: #6a737d;
     --darkGrey: #3f4144;
@@ -54,7 +54,7 @@
     --mono-font: monaco, "Consolas", "Lucida Console", monospace;
     --heading-font: "Bebas Neue", serif;
     --brand-font: "Monoton", sans-serif;
-    --heading-color: var(--neonBlue);
+    --heading-color: var(--JOGwhite);
     --margin: 1.4rem;
     --mini-margin: 2px;
     --padding: 1rem;
