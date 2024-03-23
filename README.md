@@ -2,7 +2,7 @@
 A teeny tiny but powerful CSS framework that breaths 🔥
 
 ## Classless
-Adding Dragon to your project will breathe some fire onto your HTML and make it look great without adding any classes. Typography flows properly, headings look good, tables look lovely and forms and buttons are much easier to use.
+Adding Dragon to your project will breathe fire onto your HTML without needing any classes. Typography, tables and forms all look lovely.
 
 ## Customizable
 Dragon uses CSS variables that can easily be overwritten to customize it for your project.
