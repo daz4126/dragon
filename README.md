@@ -1,5 +1,5 @@
 # 🐲 Dragon
-A teeny tiny but powerful CSS framework that breaths 🔥
+A small but powerful CSS microframework that breathes 🔥 into your HTML.
 
 ## Classless
 Adding Dragon to your project will breathe fire onto your HTML without needing any classes. Typography, tables and forms all look lovely.
