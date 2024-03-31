@@ -3,7 +3,7 @@
   }
   
   .gradient-text{
-    background: var(--gradient);
+    background-image: var(--gradient);
     background-clip: text;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -13,4 +13,28 @@
     background-size: 100%;
     -webkit-box-decoration-break: clone;
     display: inline-block;
+  }
+
+  .gradient-text.green-blue,.gradient.green-blue{
+    background-image: linear-gradient(135deg, var(--green), var(--blue));
+  }
+
+  .gradient-text.yellow-green,.gradient.yellow-green{
+    background-image: linear-gradient(135deg, var(--neonYellow), var(--neonGreen));
+  }
+
+  .gradient-text.red-yellow,.gradient.red-yellow{
+    background-image: linear-gradient(135deg, var(--neonRed), var(--neonYellow));
+  }
+
+  .gradient-text.green-purple,.gradient.green-purple{
+    background-image: linear-gradient(135deg, var(--green), var(--neonPurple));
+  }
+
+  .gradient-text.yellow-pink,.gradient.yellow-pink{
+    background-image: linear-gradient(135deg, var(--neonYellow), var(--neonPink));
+  }
+
+  .gradient-text.yellow-pink-blue,.gradient.yellow-pink-blue{
+    background-image: linear-gradient(135deg, var(--neonYellow), var(--neonPink), var(--neonBlue));
   }

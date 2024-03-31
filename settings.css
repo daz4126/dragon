@@ -27,7 +27,7 @@
     --pastelPink: #f3c6d4;
     --pastelGrey: #c3c5c7;
     --pastelPurple: #c7b1dd;
-    --pastelBrown: #d7c4b7;
+    --pastelBrown: #d5bba9;
 
     --classicGrey: #535557;
     --classicRed: #943a31;
@@ -51,17 +51,19 @@
     --warning-color: var(--yellow);
     --success-color: var(--green);
 
-    --gradient: linear-gradient(135deg, var(--neonYellow), var(--neonPink), var(--neonBlue));
+    --gradient: linear-gradient(135deg, var(--green), var(--neonYellow), var(--neonRed));
 
     --font-size: 1.6rem;
     --font-color: var(--JOGwhite);
     --font-family: -apple-system, "BlinkMacSystemFont", "Avenir",
       "Avenir Next", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
       "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-    --mono-font: monaco, "Consolas", "Lucida Console", monospace;
+    --mono-font: "Monaco", "Consolas", "Lucida Console", monospace;
     --heading-font: "Bebas Neue", serif;
     --brand-font: "Monoton", sans-serif;
+    --fancy-font: "Pacifico";
     --heading-color: var(--JOGwhite);
+    
     --margin: 1.6rem;
     --mini-margin: 4px;
     --padding: 2rem;
