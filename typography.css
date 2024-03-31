@@ -1,4 +1,4 @@
-.display-1, .display-2, .display-3{
+.display-big, .display-med, .display-small{
     font-family: var(--font-family);
     color: var(--heading-color);
     line-height: 1.2;
@@ -6,11 +6,11 @@
     font-size: 8rem;
   }
   
-  .display-2{
+  .display-med{
     font-size: 6rem;
   }
   
-  .display-3{
+  .display-small{
     font-size: 4rem;
   }
 
@@ -26,7 +26,7 @@ h6 {
   color: var(--heading-color);
 }
 
-h1,.h1,.big-text {
+h1,.h1 {
   font-size: 3.6em;
 }
 
@@ -84,4 +84,24 @@ h6,.h6 {
   
   .bold{
     font-weight: bold;
+  }
+
+  .underline{
+    text-decoration: underline;
+  }
+
+  .sans{
+    font-family: sans-serif;
+  }
+
+  .serif{
+    font-family: serif;
+  }
+
+  .pacifico{
+    font-family: Pacifico;
+  }
+
+  .monoton{
+    font-family: monton;
   }

@@ -45,7 +45,7 @@ a {
 }
 
 a:hover:not(.button) {
-  opacity: 0.75;
+  text-decoration: underline;
 }
 
 button {

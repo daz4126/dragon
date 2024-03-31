@@ -5,47 +5,54 @@
     --JOGwhite: #e6e7e8;
     --OGreen: #3D9970;
     --FMauve: #9575cd;
+
     --white: #fff;
-    --lightGrey: #d2d6dd;
-    --grey: #6a737d;
-    --darkGrey: #3f4144;
-    --lightRed: #ff6970;
-    --red: #f5002f;
-    --darkRed: #800400;
-    --lightBlue: #d9edfc;
-    --blue: #0085ca;
-    --darkBlue: #1b365d;
-    --lightGreen: #b5e8bf;
-    --green: #28a745;
-    --darkGreen: #005e5d;
-    --lightYellow: #f2f0a1;
-    --yellow: #FFDC00;
-    --darkYellow: #f1b434;
-    --lightOrange: #ff9d6e;
-    --orange: #ff9e1b;
-    --darkOrange: #d45d00;
-    --lightPink: #fadeff;
-    --pink: #ffb3db;
-    --darkPink: #a15a95;
-    --lightPurple: #c7b1dd;
-    --purple: #6f42c1;
-    --darkPurple: #3c1053;
-    --lightBrown: #d7c4b7;
-    --brown: #99897c;
-    --darkBrown: #4e3629;
     --black: #222;
+    --grey: #939597;
+
+    --red: #c20000;
+    --blue: #004983;
+    --green: #3c8562;
+    --yellow: #f6e548;
+    --orange: #ff6900;
+    --pink: #ffb3db;
+    --purple: #5f52a1;
+    --brown: #5d3c2f;
+    
+    --pastelRed: #f97e84;
+    --pastelOrange: #ff9d6e;
+    --pastelYellow: #f2f0a1;
+    --pastelGreen: #c8fbd2;
+    --pastelBlue: #94b0d2;
+    --pastelPink: #f3c6d4;
+    --pastelGrey: #c3c5c7;
+    --pastelPurple: #c7b1dd;
+    --pastelBrown: #d7c4b7;
+
+    --classicGrey: #535557;
+    --classicRed: #943a31;
+    --classicBlue: #414369;
+    --classicGreen: #557764;
+    --classicYellow: #cead4d;
+    --classicOrange: #d46b00;
+    --classicPink: #de9cbb;
+    --classicPurple: #855778;
+    --classicBrown: #81694e;
+
+    --neonRed: #f13943;
+    --neonOrange: #f7a100;
+    --neonYellow: #d8f640;
+    --neonGreen: #35f138;
+    --neonBlue: #13fbfb;
+    --neonPink: #fc6df7;
+    --neonPurple: #aa00d5;
+
     --error-color: var(--red);
     --warning-color: var(--yellow);
     --success-color: var(--green);
-    --neonPink: #fa1afa;
-    --neonYellow: #effb11;
-    --neonBlue: #13fbfb;
-    --neonGreen: #8cf622;
 
     --gradient: linear-gradient(135deg, var(--neonYellow), var(--neonPink), var(--neonBlue));
-    
-    --grid-maxWidth: 120rem;
-    --grid-gutter: 2rem;
+
     --font-size: 1.6rem;
     --font-color: var(--JOGwhite);
     --font-family: -apple-system, "BlinkMacSystemFont", "Avenir",
@@ -55,9 +62,9 @@
     --heading-font: "Bebas Neue", serif;
     --brand-font: "Monoton", sans-serif;
     --heading-color: var(--JOGwhite);
-    --margin: 1.4rem;
-    --mini-margin: 2px;
-    --padding: 1rem;
+    --margin: 1.6rem;
+    --mini-margin: 4px;
+    --padding: 2rem;
     --border-width: 3px;
     --radius: 1.4rem;
 
@@ -70,11 +77,11 @@
     --tag-bg--color: none;
     --tag-border-color: var(--lightGrey);
 
-    --small-screen: 480px;
-    --medium-screen: 720px;
-    --big-screen: 1080px;
+    --button-text-color: var(--white);
+    --button-bg--color: var(--primary-color);
+    --button-hover-color: var(--secondary-color);
 
     --grid-columns: 3;
-	  --grid-min-width: 200px;
-	  --grid-gap: 20px;
+	  --grid-min-width: 20rem;
+	  --grid-gap: 2rem;
   }

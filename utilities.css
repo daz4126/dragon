@@ -77,7 +77,26 @@
 
 .fixed {
   position: fixed;
-  width: 100%;
+}
+
+.sticky{
+  position: sticky;
+}
+
+.top{
+  top: 0;
+}
+
+.right{
+  right: 0;
+}
+
+.bottom{
+  bottom: 0;
+}
+
+.left{
+  left; 0;
 }
 
 .padding {
@@ -116,10 +135,6 @@
   cursor: pointer !important;
 }
 
-.rounded {
-  border-radius: var(--radius);
-}
-
 .circle {
   border-radius: 100%;
 }
@@ -144,11 +159,10 @@
 
 .no-bullet{
   list-style: none;
-  padding: 0;
 }
 
 .glow{
-  text-shadow: 0 0 6px currentcolor;
+  text-shadow: 0 0 0.25em currentcolor;
 }
 
 @media screen and (max-width: 400px) {
