@@ -20,7 +20,7 @@
   }
 
   .gradient-text.yellow-green,.gradient.yellow-green{
-    background-image: linear-gradient(135deg, var(--neonYellow), var(--neonGreen));
+    background-image: linear-gradient(135deg, var(--neonYellow), var(--green));
   }
 
   .gradient-text.red-yellow,.gradient.red-yellow{
@@ -37,4 +37,8 @@
 
   .gradient-text.yellow-pink-blue,.gradient.yellow-pink-blue{
     background-image: linear-gradient(135deg, var(--neonYellow), var(--neonPink), var(--neonBlue));
+  }
+
+  .gradient-text.red-purple,.gradient.red-purple{
+    background-image: linear-gradient(135deg, var(--neonRed), var(--purple));
   }

@@ -4,116 +4,197 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Sparkle CSS Test Page</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Bebas+Neue&display=swap" rel="stylesheet">
+  <title>Dragon CSS Grids</title>
     <link rel="stylesheet" href="dragon.css">
 </head>
 
 <body>
-    <h1 class="gradient-text">Dragon 🐲 CSS Grids</h1>
-
+  <header class="sticky top black padding-horizontal">
+    <h1 class="gradient-text">Dragon 🐲 CSS</h1>
+  </header>
+  <main>
+<h2 class="red-purple gradient-text fancy-font display-big padding-horizontal">Grids</h2>
+<p>Dragon has a simple grid system that allows you to create complex but repsonsive layouts with just a few classes.</p><h2 class="neon blue-text glow fancy-font padding-horizontal">Basic Grid</h2>
+<p>Adding a class of "grid" to a containing element will create a 3-column grid.</p>
+<p>No other classes are needed.</p>
+<p>The default number of columns can be changed in settings.</p>
 <div class="grid">
-  <div class="card row-span-3">
-    <h2>.row-span-3</h2>
+  <div class="card">
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
   </div>
     <div class="card">
-    <h2>Grid</h2>
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
   </div>
     <div class="card">
-    <h2>Grid</h2>
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
   </div>
     <div class="card">
-    <h2>Responsive</h2>
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
   </div>
     <div class="card">
-    <h2>Flexible</h2>
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
   </div>
     <div class="card">
-    <h2>Grids</h2>
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
   </div>
     <div class="card">
-    <h2>Grids</h2>
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
   </div>
-    <div class="card start-2 col-span-2">
-    <h2>Grids</h2>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
-  </div>
+    <div class="card">
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
+    </div>
+    <div class="card">
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
+    </div>
 </div>
-
-<h2 class="gradient-text">.two.column.grid .no-gap</h2>
-<div class="two column grid no-gap">
-  <div class="card col-span-2">
-    <h3>.col-span-2</h3>
-		<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
-  </div>
-    <div class="card">
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
-  </div>
-    <div class="card">
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
-  </div>
-    <div class="card col-span-2">
-      <h3>.col-span-2</h3>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
-  </div>
-  </div>
-
-<h2 class="gradient-text">.five.column.grid .small-gap</h2>
-<div class="five column grid small-gap">
-	<div class="card start-2 col-span-3">
-        <h3>.start-2 col-span-3</h3>
-		<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
-	</div>
-	<div class="card">
-		<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
-	</div>
-	<div class="card">
-		<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
-	</div>
-	<div class="card">
-		<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
-	</div>
+<h2 class="neon pink-text glow fancy-font padding-horizontal">Multi-Column Grids</h2>
+<p>Use classes of "two","three","four","five" and "six" along with "columns" to change the number of columns in the grid.</p>
+<p>For example the grid below has a class of "four column grid".</p>
+<div class="four column grid">
   <div class="card">
 		<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
-	</div>
-	<div class="card">
-		<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
-	</div>
-	<div class="card">
-		<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
-	</div>
-	<div class="card start-4">
-        <h3>.start-4</h3>
-		<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
-	</div>
-</div>
+  </div>
+    <div class="card">
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
+  </div>
+  <div class="card">
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
+  </div>
+  <div class="card">
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
+  </div>
+  <div class="card">
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
+  </div>
+  <div class="card">
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
+  </div>
+  <div class="card">
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
+  </div>
+  <div class="card">
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
+  </div>
+  </div>
+  <h2 class="neon green-text glow fancy-font padding-horizontal">Column Spans</h2>
+  <p>You can make an element span more columns by using the class "col-span-n", where n is the number of columns you want it to span.</p>
+  <p>For example, the first column has a class of "col-span-2" and the column in the bottom row has a class of "col-span-3".</p>
+  <div class="grid">
+    <div class="card col-span-2">
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
+    </div>
+      <div class="card">
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
+    </div>
+    <div class="card">
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
+    </div>
+    <div class="card">
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
+    </div>
+    <div class="card">
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
+    </div>
+    <div class="card col-span-3">
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
+    </div>
+    </div>
 
-<h2 class="gradient-text">.four.column.grid .big-gap</h2>
-<div class="four column grid big-gap">
-	<div class="card col-span-2">
-        <h3>.col-span-2</h3>
-		<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
-	</div>
-	<div class="card">
-		<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
-	</div>
-	<div class="card">
-		<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
-	</div>
-	<div class="card col-span-4">
-        <h3>.col-span-4</h3>
-		<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
-	</div>
-</div>
+
+  <h2 class="newon orange-text glow fancy-font padding-horizontal">Row Spans</h2>
+  <p>You can make an element span more rows by using the class "row-span-n", where n is the number of rows you want it to span.</p>
+  <p>For example, the first column has a class of "row-span-3".</p>
+  <div class="grid">
+    <div class="card row-span-3">
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
+    </div>
+      <div class="card">
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
+    </div>
+    <div class="card">
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
+    </div>
+    <div class="card">
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
+    </div>
+    <div class="card">
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
+    </div>
+    <div class="card">
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
+    </div>
+    <div class="card">
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
+    </div>
+    </div>
+
+  <h2 class="neon red-text glow fancy-font padding-horizontal">Starting Column</h2>
+  <p>You can make an element start in a specific column by using the class "start-n", where n is the number of the column you want it to start in.</p>
+  <p>For example, the first column has a class of "start-2" and the last element has a class of "start-3".</p>
+  <div class="grid">
+    <div class="card start-2">
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
+    </div>
+      <div class="card">
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
+    </div>
+    <div class="card">
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
+    </div>
+    <div class="card">
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
+    </div>
+    <div class="card">
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
+    </div>
+    <div class="card start-3">
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
+    </div>
+    </div>
+
+
+  <h2 class="neon purple-text glow fancy-font padding-horizontal">Gaps</h2>
+  <p>You can change the size of the gap between elements in the grid by adding the classes "big-gap", "small-gap" or "no-gap" to the container element that has the class of "grid".</p>
+  <h3>.big-gap</h3>
+<div class="grid big-gap">
+    <div class="card">
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
+    </div>
+      <div class="card">
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
+    </div>
+      <div class="card">
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
+    </div>
+    </div>
+    <h3>.small-gap</h3>
+
+    <div class="grid small-gap">
+      <div class="card">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
+      </div>
+        <div class="card">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
+      </div>
+        <div class="card">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
+      </div>
+      </div>
+<h3>.no-gap</h3>
+      <div class="grid no-gap">
+        <div class="card">
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
+        </div>
+          <div class="card">
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
+        </div>
+          <div class="card">
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
+        </div>
+        </div>
+
+
+  </main>
 </body>
 
 </html>

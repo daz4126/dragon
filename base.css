@@ -53,7 +53,9 @@ button {
 }
 
 p {
+  margin: var(--margin);
   margin-top: 0;
+  max-width: 48em;
 }
 
 blockquote {

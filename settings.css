@@ -55,16 +55,18 @@
 
     --font-size: 1.6rem;
     --font-color: var(--JOGwhite);
-    --font-family: -apple-system, "BlinkMacSystemFont", "Avenir",
+    --font-family: var(--sans-font);
+    --serif-font: font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+    --sans-font: -apple-system, "BlinkMacSystemFont", "Avenir",
       "Avenir Next", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
       "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-    --mono-font: "Monaco", "Consolas", "Lucida Console", monospace;
-    --heading-font: "Bebas Neue", serif;
-    --brand-font: "Monoton", sans-serif;
+    --mono-font: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+    --heading-font: "Bebas Neue";
+    --brand-font: "Monoton";
     --fancy-font: "Pacifico";
     --heading-color: var(--JOGwhite);
-    
-    --margin: 1.6rem;
+
+    --margin: 1.2rem;
     --mini-margin: 4px;
     --padding: 2rem;
     --border-width: 3px;
