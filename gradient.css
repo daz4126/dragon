@@ -42,3 +42,15 @@
   .gradient-text.red-purple,.gradient.red-purple{
     background-image: linear-gradient(135deg, var(--neonRed), var(--purple));
   }
+
+  .gradient-text.orange-purple,.gradient.orange-purple{
+    background-image: linear-gradient(135deg, var(--orange), var(--neonPurple));
+  }
+
+  .gradient-text.yellow-purple,.gradient.yellow-purple{
+    background-image: linear-gradient(135deg, var(--yellow), var(--neonPurple));
+  }
+
+  .gradient-text.red-white-blue,.gradient.red-white-blue{
+    background-image: linear-gradient(135deg, var(--red), var(--white),var(--blue));
+  }
