@@ -3,32 +3,19 @@
 [type="reset"],
 [type="submit"],
 button {
-  padding: var(--padding);
-  color: var(--white);
-  background: var(--primary-color);
+  padding: calc(0.5*var(--padding));
+  color: var(--button-text-color);
+  background: var(--button-bg-color);
   border-radius: 4px;
   border: 1px solid transparent;
   font-size: var(--font-size);
   line-height: 1;
   text-align: center;
-  transition: opacity 0.2s ease;
+  transition: background-color 0.5s ease;
   text-decoration: none;
-  transform: scale(1);
   display: inline-block;
   cursor: pointer;
   margin: var(--mini-margin);
-}
-
-.button.primary,
-.button.secondary,
-.button.dark,
-.button.error,
-.button.success,
-.button.warning,
-[type="submit"] {
-  color: #fff;
-  z-index: 1; /* highlight from other button's border when grouped */
-  background-color: var(--primary-color);
 }
 
 .button:hover,
@@ -36,53 +23,35 @@ button {
 [type="reset"]:hover,
 [type="submit"]:hover,
 button:hover {
-  opacity: 0.8;
+  background-color: var(--button-hover-color);
 }
-
-.button + .button {
-    margin-left: 1rem;
-  }
   
   button.outline,.button.outline {
-    background-color: transparent;
-    border-color: var(--lightGrey);
+    background-color: transparent !important;
+    border-color: var(--button-bg-color);
   }
-  
-  button.outline.primary,.button.outline.primary {
-    border-color: var(--primary-color);
-    color: var(--primary-color);
+
+  button.outline:hover,.button.outline:hover{
+    border-color: var(--button-hover-color);
   }
-  
-  button.outline.secondary,.button.outline.secondary {
-    border-color: var(--grey);
-    color: var(--grey);
+
+  button.small,.button.small{
+    font-size: calc(0.8*var(--font-size));
+    padding: 5px;
   }
-  
-  button.outline.dark,.button.outline.dark {
-    border-color: var(--darkGrey);
-    color: var(--darkGrey);
-  }
-  
-  a.button.outline, button.outline{
-    background: transparent !important;
+
+  button.pill,.button.pill{
+    border-radius: 1.6em;
   }
   
   button.clear,.button.clear {
-    background-color: transparent;
+    background-color: transparent !important;
     border-color: transparent;
-    color: var(--primary-color);
+    color: var(--button-bg-color);
   }
-  button.icon,.button.icon {
-    display: inline-flex;
-    align-items: center;
-  }
-  
-  button.icon > img,.button.icon > img {
-    margin-left: 2px;
-  }
-  
-  button.icon-only,.button.icon-only {
-    padding: 1rem;
+
+  button.clear:hover,.button.clear:hover {
+    color: var(--button-hover-color);
   }
   
   .button:active:not(:disabled),
@@ -92,3 +61,9 @@ button:hover {
   button:active:not(:disabled) {
     transform: scale(0.98);
   }
+
+  button:disabled,
+button:disabled:hover {
+  opacity: 0.4;
+  cursor: not-allowed;
+}

@@ -1,14 +1,9 @@
 .primary-border {border: var(--border-width) solid var(--primary-color);}
 .secondary-border {border: var(--border-width) solid var(--secondary-color);}
-.error-border {border: var(--border-width) solid var(--error-color);}
-.success-border {border: var(--border-width) solid var(--success-color);}
-.warning-border {border: var(--border-width) solid var(--warning-color);}
-
 
 .white-border {border: var(--border-width) solid var(--white);}
 .grey-border {border: var(--border-width) solid var(--grey);}
 .black-border {border: var(--border-width) solid var(--black);}
-
 
 .red-border {border: var(--border-width) solid var(--red);}
 .orange-border {border: var(--border-width) solid var(--orange);}
@@ -51,3 +46,21 @@
 .no-border{border: none !important;}
 
 .rounded { border-radius: var(--radius);}
+
+.bottom.primary-border,
+.bottom.secondary-border,
+.bottom.white-border,
+.bottom.grey-border,
+.bottom.black-border,
+.bottom.red-border,
+.bottom.orange-border,
+.bottom.yellow-border,
+.bottom.green-border,
+.bottom.blue-border,
+.bottom.purple-border,
+.bottom.pink-border,
+.bottom.brown-border {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}

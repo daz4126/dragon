@@ -15,7 +15,7 @@ textarea[type="text"] {
   font-family: inherit;
   padding: var(--padding);
   border-radius: var(--radius);
-  border: 1px solid var(--lightGrey);
+  border: 1px solid var(--white);
   font-size: 1em;
   transition: all 0.2s ease;
   display: block;
@@ -31,9 +31,7 @@ select {
 }
 
 input:disabled,
-input:disabled:hover,
-button:disabled,
-button:disabled:hover {
+input:disabled:hover{
   opacity: 0.4;
   cursor: not-allowed;
 }
@@ -61,8 +59,8 @@ button:disabled:hover {
 }
 
 input:not([type="checkbox"], [type="radio"], [type="submit"], [type="color"], [type="button"], [type="reset"], :disabled){
-  background: var(--lightGrey);
-  color: var(--darkGrey);
+  background: rgba(255,255,255,0.6);
+  color: var(--text-color);
   border-radius: var(--radius);
   margin: var(--margin) 0;
   max-width: 40rem;
@@ -86,18 +84,18 @@ textarea[type="text"]:focus {
 
 input.error:not([type="checkbox"], [type="radio"], [type="submit"], [type="color"], [type="button"], [type="reset"]),
 textarea.error {
-  border-color: var(--error-color);
+  border-color: var(--red);
 }
 
 input.success:not([type="checkbox"], [type="radio"], [type="submit"], [type="color"], [type="button"], [type="reset"]),
 textarea.success {
-  border-color: var(--success-color);
+  border-color: var(--green);
 }
 
 
 input.warning:not([type="checkbox"], [type="radio"], [type="submit"], [type="color"], [type="button"], [type="reset"]),
 textarea.warning {
-  border-color: var(--warning-color);
+  border-color: var(--yellow);
 }
 
 [type="checkbox"],
@@ -111,16 +109,16 @@ textarea.warning {
 }
 
 label.error, label.success,label.warning{
-  background: var(--error-color);
+  background: var(--red);
   color: var(--white);
   padding: var(--padding);
   border-radius: var(--radius);
 }
 
 label.success{
-  background: var(--success-color);
+  background: var(--green);
 }
 
 label.warning{
-  background: var(--warning-color);
+  background: var(--yellow);
 }

@@ -47,14 +47,10 @@
     --neonPink: #fc6df7;
     --neonPurple: #aa00d5;
 
-    --error-color: var(--red);
-    --warning-color: var(--yellow);
-    --success-color: var(--green);
-
     --gradient: linear-gradient(135deg, var(--green), var(--neonYellow), var(--neonRed));
 
     --font-size: 1.6rem;
-    --font-color: var(--JOGwhite);
+    --text-color: var(--JOGwhite);
     --font-family: var(--sans-font);
     --serif-font: font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
     --sans-font: -apple-system, "BlinkMacSystemFont", "Avenir",
@@ -72,7 +68,7 @@
     --border-width: 3px;
     --radius: 1.4rem;
 
-    --tab-text-color: var(--fontcolor);
+    --tab-text-color: var(--text-color);
     --tab-bg--color: none;
     --tab-hover-color: var(--lightGrey);
     --tab-active-color: none;
@@ -82,8 +78,11 @@
     --tag-border-color: var(--lightGrey);
 
     --button-text-color: var(--white);
-    --button-bg--color: var(--primary-color);
+    --button-bg-color: var(--primary-color);
     --button-hover-color: var(--secondary-color);
+
+    --badge-text-color: var(--white);
+    --badge-bg-color: var(--red);
 
     --grid-columns: 3;
 	  --grid-min-width: 20rem;

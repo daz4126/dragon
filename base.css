@@ -17,7 +17,7 @@ body {
   text-rendering: optimizeSpeed;
   line-height: 1.6;
   font-size: var(--font-size);
-  color: var(--font-color);
+  color: var(--text-color);
   font-family: var(--font-family);
   margin: 0;
   padding: 0;
@@ -42,10 +42,16 @@ a:not([class]) {
 a {
   color: var(--secondary-color);
   text-decoration: none;
+  transition: text-decoration-color 0.3s ease;
+
 }
 
 a:hover:not(.button) {
   text-decoration: underline;
+}
+
+a:visited:not(.button) {
+  opacity: 0.8;
 }
 
 button {
