@@ -1,5 +1,6 @@
 fieldset {
   padding: 0.5rem 2rem;
+  border: 1px solid var(--pastelGrey);
 }
 
 legend {
@@ -13,7 +14,7 @@ select,
 textarea,
 textarea[type="text"] {
   font-family: inherit;
-  padding: var(--padding);
+  padding: calc(2*var(--mini-padding)) var(--padding);
   border-radius: var(--radius);
   border: 1px solid var(--white);
   font-size: 1em;
@@ -24,7 +25,7 @@ textarea[type="text"] {
 
 select {
   appearance: none;
-  background: #f3f3f6 no-repeat 100%;
+  background: var(--white) no-repeat 100%;
   background-size: 1ex;
   background-origin: content-box;
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='60' height='40' fill='%23555'><polygon points='0,0 60,0 30,40'/></svg>");
@@ -36,31 +37,9 @@ input:disabled:hover{
   cursor: not-allowed;
 }
 
-.grouped {
-  display: flex;
-}
-
-.grouped > *:not(:last-child) {
-  margin-right: 16px;
-}
-
-.grouped.gapless > * {
-  margin: 0 0 0 -1px !important;
-  border-radius: 0 !important;
-}
-
-.grouped.gapless > *:first-child {
-  margin: 0 !important;
-  border-radius: 4px 0 0 4px !important;
-}
-
-.grouped.gapless > *:last-child {
-  border-radius: 0 4px 4px 0 !important;
-}
-
 input:not([type="checkbox"], [type="radio"], [type="submit"], [type="color"], [type="button"], [type="reset"], :disabled){
-  background: rgba(255,255,255,0.6);
-  color: var(--text-color);
+  background: rgba(255,255,255,0.4);
+  color: var(--black);
   border-radius: var(--radius);
   margin: var(--margin) 0;
   max-width: 40rem;
@@ -92,7 +71,6 @@ textarea.success {
   border-color: var(--green);
 }
 
-
 input.warning:not([type="checkbox"], [type="radio"], [type="submit"], [type="color"], [type="button"], [type="reset"]),
 textarea.warning {
   border-color: var(--yellow);
@@ -105,13 +83,13 @@ textarea.warning {
 }
 
 ::placeholder {
-  color: #bdbfc4;
+  color: var(--classicGrey);
 }
 
 label.error, label.success,label.warning{
   background: var(--red);
   color: var(--white);
-  padding: var(--padding);
+  padding: var(--mini-padding) var(--padding);
   border-radius: var(--radius);
 }
 

@@ -59,15 +59,17 @@ button {
 }
 
 p {
-  margin: var(--margin);
-  margin-top: 0;
-  max-width: 48em;
+  margin: 0 0 var(--margin);
+  max-width: 54em;
 }
 
 blockquote {
   background-color: var(--lightGrey);
   padding: 1.5rem 2rem;
-  border-left: 3px solid var(--darkGrey);
+  font-family: var(--serif-font);
+  font-size: 1.2em;
+  border-left: 5px solid var(--classicGrey);
+  max-width: 36em;
 }
 
 dl dt {
@@ -79,13 +81,6 @@ dl dt {
 dl dd {
   margin-left: 0;
   font-style: italic;
-}
-
-hr {
-  border: none;
-  background-color: var(--lightGrey);
-  height: 1px;
-  margin: calc(2*var(--margin)) 0;
 }
 
 code,
@@ -122,10 +117,6 @@ abbr[title] {
   border-bottom: none;
   text-decoration: underline;
   text-decoration: underline dotted;
-}
-
-fieldset {
-  border: 1px solid var(--lightGrey);
 }
 
 iframe {

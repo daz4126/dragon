@@ -12,10 +12,15 @@
   <header class="sticky top black padding-horizontal">
     <h1 class="gradient-text">Dragon 🐲 CSS</h1>
   </header>
-  <main class="one column grid">
+  <main class="container">
+    <h2 class="red-purple gradient-text fancy-font display-big">Classless Styling</h2>
+    <p>Dragon CSS styles the main elements of a page with some beautful default styling out of the box - no need to add any classes!</p>
     <article id="text__headings">
       <header>
         <h1>Headings</h1>
+        <p>Headings are are set to the Bebas Neue font and are sized according to the level of heading.</p>
+        <p>The font and colour can be changed in the settings.</p>
+
       </header>
       <div>
         <h1>Heading Level 1</h1>
@@ -29,6 +34,7 @@
     <article id="text__paragraphs">
       <header>
         <h1>Paragraphs</h1>
+        <p>Paragraphs have a maximum width, so the text doesn't go on for too long.</p>
       </header>
       <div>
         <p>
@@ -41,10 +47,13 @@
         </p>
         <header>
         <h1>Images</h1>
+        <p>Images are made block-level, rounded and given a drop shadow.</p>
+        <p>They also have a maximum width of 100% to stop them flowing over the page.</p>
       </header>
         <img src="https://picsum.photos/id/29/200" alt="A stock image">
         <header>
         <h1>Paragraphs & Images</h1>
+        <p>Images inside a paragraph will automatically be floated to the left.</p>
       </header>
                 <p>
                   <img src="https://picsum.photos/id/20/200" alt="A stock image">
@@ -106,6 +115,8 @@
     <article id="text__tables">
       <header>
         <h1>Tables</h1>
+        <p>Tables have coloured headers and footers (based on the primary and secondary colours in settings).</p>
+        <p>They are also striped by default.</p>
       </header>
       <table>
         <caption>
@@ -301,7 +312,7 @@
       </fieldset>
       <fieldset id="forms__checkbox">
         <legend>Checkboxes</legend>
-        <ul class="list list--bare">
+        <ul class="no-bullet">
           <li>
             <label for="checkbox1"
               ><input
@@ -329,7 +340,7 @@
       </fieldset>
       <fieldset id="forms__radio">
         <legend>Radio buttons</legend>
-        <ul class="list list--bare">
+        <ul class="no-bullet">
           <li>
             <label for="radio1"
               ><input
@@ -420,8 +431,11 @@
           </form>
           </section>
     <section>
-      <h1>Buttons</h1>
-    <button>Press Me!<span class="badge">3</span></button>
+    <h1>Buttons</h1>
+    <p>Buttons are coloured in the primary colour and the secondary colour on hover, but this can be changed in the settings.</p>
+    <p>You can use classes to make buttons "small", "pill" shaped, "outline" only, or "clear".</p>
+    <p>You can also make other elements into a button by adding the class of "button"</p>
+    <button>Press Me!</button>
     <button class="small">Small Button</button>
     <button class="pill">Pill Button</button>
     <button type="button" disabled>button disabled</button>

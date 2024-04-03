@@ -52,7 +52,7 @@
     --font-size: 1.6rem;
     --text-color: var(--JOGwhite);
     --font-family: var(--sans-font);
-    --serif-font: font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+    --serif-font: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
     --sans-font: -apple-system, "BlinkMacSystemFont", "Avenir",
       "Avenir Next", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
       "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
@@ -64,6 +64,7 @@
 
     --margin: 1.2rem;
     --mini-margin: 4px;
+    --mini-padding: 0.4rem;
     --padding: 2rem;
     --border-width: 3px;
     --radius: 1.4rem;
