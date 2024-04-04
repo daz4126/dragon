@@ -51,57 +51,65 @@ h6,.h6 {
 }
 
 .text-center {
-    text-align: center;
-  }
-  
-  .text-left {
-    text-align: left;
-  }
-  
-  .text-right {
-    text-align: right;
-  }
-  
-  .text-justify {
-    text-align: justify;
-  }
-  
-  .text-uppercase {
-    text-transform: uppercase;
-  }
-  
-  .text-lowercase {
-    text-transform: lowercase;
-  }
-  
-  .text-capitalize {
-    text-transform: capitalize;
-  }
+  text-align: center;
+}
 
-  .italic{
-    font-style: italic;
-  }
-  
-  .bold{
-    font-weight: bold;
-  }
+.text-left {
+  text-align: left;
+}
 
-  .underline{
-    text-decoration: underline;
-  }
+.text-right {
+  text-align: right;
+}
 
-  .sans{
-    font-family: sans-serif;
-  }
+.text-justify {
+  text-align: justify;
+}
 
-  .serif{
-    font-family: serif;
-  }
+.text-uppercase {
+  text-transform: uppercase;
+}
 
-  .fancy-font{
-    font-family: var(--fancy-font);
-  }
+.text-lowercase {
+  text-transform: lowercase;
+}
 
-  .glow{
-    text-shadow: 0 0 0.25em currentcolor;
-  }
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+.italic{
+  font-style: italic;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.underline{
+  text-decoration: underline;
+}
+
+.sans-font{
+  font-family: var(--sans-font);
+}
+
+.serif-font{
+  font-family: var(--serif-font);
+}
+
+.mono-font{
+  font-family: var(--mono-font);
+}
+
+.fancy-font{
+  font-family: var(--fancy-font);
+}
+
+.brand{
+  font-family: var(--brand-font);
+}
+
+.glow{
+  text-shadow: 0 0 0.25em currentcolor;
+}
