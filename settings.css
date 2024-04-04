@@ -1,12 +1,11 @@
 :root {
     --bg-color: #232349;
-    --primary-color: var(--OGreen);
-    --secondary-color: var(--FMauve);
-    --JOGwhite: #e6e7e8;
-    --OGreen: #3D9970;
-    --FMauve: #9575cd;
+    --primary-color: var(--dragon-green);
+    --secondary-color: var(--dragon-red);
+    --dragon-green: #85d546;
+    --dragon-red: #ed582e;
 
-    --white: #fff;
+    --white: #e6e7e8;
     --black: #222;
     --grey: #939597;
 
@@ -50,7 +49,7 @@
     --gradient: linear-gradient(135deg, var(--green), var(--neonYellow), var(--neonRed));
 
     --font-size: 1.6rem;
-    --text-color: var(--JOGwhite);
+    --text-color: var(--white);
     --font-family: var(--sans-font);
     --serif-font: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
     --sans-font: -apple-system, "BlinkMacSystemFont", "Avenir",
@@ -60,7 +59,7 @@
     --heading-font: "Bebas Neue";
     --brand-font: "Monoton";
     --fancy-font: "Pacifico";
-    --heading-color: var(--JOGwhite);
+    --heading-color: var(--white);
 
     --margin: 1.2rem;
     --mini-margin: 4px;
