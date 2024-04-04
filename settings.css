@@ -1,9 +1,9 @@
 :root {
     --bg-color: #292929;
     --primary-color: var(--dragon-green);
-    --secondary-color: var(--dragon-red);
-    --dragon-green: #85d546;
-    --dragon-red: #ed582e;
+    --secondary-color: var(--dragon-orange);
+    --dragon-green: #2da15a;
+    --dragon-orange: #e28c2f;
 
     --white: #e6e7e8;
     --black: #222;

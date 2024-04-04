@@ -23,35 +23,35 @@
   .six.column.grid{ --grid-columns: 6; }
 
   
-  .grid.row-span-2{ grid-row: span 2; }
-  .grid.row-span-3{ grid-row: span 3; }
-  .grid.row-span-4{ grid-row: span 4; }
-  .grid.row-span-5{ grid-row: span 5; }
-  .grid.row-span-6{ grid-row: span 6; }
+  .grid .row-span-2{ grid-row: span 2; }
+  .grid .row-span-3{ grid-row: span 3; }
+  .grid .row-span-4{ grid-row: span 4; }
+  .grid .row-span-5{ grid-row: span 5; }
+  .grid .row-span-6{ grid-row: span 6; }
 
-  .grid.col-span-2{ grid-column: span 2; }
-  .grid.col-span-3{ grid-column: span 3; }
-  .grid.col-span-4{ grid-column: span 4; }
-  .grid.col-span-5{ grid-column: span 5; }
-  .grid.col-span-6{ grid-column: span 6; }
-
-  .grid.start-2{ grid-column-start: 2; }
-  .grid.start-2.col-span-2{ grid-column: 2 / span 2; }
-  .grid.start-2.col-span-3{ grid-column: 2 / span 3; }
-  .grid.start-2.col-span-4{ grid-column: 2 / span 4; }
-  .grid.start-2.col-span-5{ grid-column: 2 / span 5; }
-
-  .grid.start-3{ grid-column-start: 3; }
-  .grid.start-3.col-span-2{ grid-column: 3 / span 2; }
-  .grid.start-3.col-span-3{ grid-column: 3 / span 3; }
-  .grid.start-3.col-span-4{ grid-column: 3 / span 4; }
-
-  .grid.start-4{ grid-column-start: 4; }
-  .grid.start-4.col-span-2{ grid-column: 4 / span 2; }
-  .grid.start-4.col-span-3{ grid-column: 4 / span 3; }
-
-  .grid.start-5{ grid-column-start: 5; }
-  .grid.start-5.col-span-2{ grid-column: 5 / span 2; }
-
-  .grid.start-6{ grid-column-start: 6; }
+  .grid .col-span-2{ grid-column: span 2; }
+  .grid .col-span-3{ grid-column: span 3; }
+  .grid .col-span-4{ grid-column: span 4; }
+  .grid .col-span-5{ grid-column: span 5; }
+  .grid .col-span-6{ grid-column: span 6; }
+ 
+  .grid .start-2{ grid-column-start: 2; }
+  .grid .start-2.col-span-2{ grid-column: 2 / span 2; }
+  .grid .start-2.col-span-3{ grid-column: 2 / span 3; }
+  .grid .start-2.col-span-4{ grid-column: 2 / span 4; }
+  .grid .start-2.col-span-5{ grid-column: 2 / span 5; }
+ 
+  .grid .start-3{ grid-column-start: 3; }
+  .grid .start-3.col-span-2{ grid-column: 3 / span 2; }
+  .grid .start-3.col-span-3{ grid-column: 3 / span 3; }
+  .grid .start-3.col-span-4{ grid-column: 3 / span 4; }
+ 
+  .grid .start-4{ grid-column-start: 4; }
+  .grid .start-4.col-span-2{ grid-column: 4 / span 2; }
+  .grid .start-4.col-span-3{ grid-column: 4 / span 3; }
+ 
+  .grid .start-5{ grid-column-start: 5; }
+  .grid .start-5.col-span-2{ grid-column: 5 / span 2; }
+ 
+  .grid .start-6{ grid-column-start: 6; }
 }

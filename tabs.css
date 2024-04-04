@@ -1,4 +1,4 @@
-.tabs {
+.tabs,.horizontal-list {
   display: flex;
   align-items: center;
 }

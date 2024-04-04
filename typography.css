@@ -26,6 +26,26 @@ h6 {
   color: var(--heading-color);
 }
 
+.huge-text{
+  font-size: 6rem;
+}
+
+.large-text{
+  font-size: 4rem;
+}
+
+.med-text{
+  font-size: 2rem;
+}
+
+.small-text{
+  font-size: 1.4rem;
+}
+
+.tiny-text{
+  font-size: 1rem;
+}
+
 h1,.h1 {
   font-size: 3.6em;
 }

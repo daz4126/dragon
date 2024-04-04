@@ -9,10 +9,19 @@
 </head>
 
 <body>
-  <header class="text-center sticky top black padding thin secondary-border bottom">
+  <header class="four column grid sticky black classic red-border bottom">
+  <div class="start-2 col-span-2 text-center">
     <h1 class="gradient-text no-margin">Dragon 🐲 CSS</h1>
-    <h2 class="h6 italic serif-font pastel grey-text no-margin">A micro  (~5kb) CSS framework that breathes 🔥</h2>
-  </header>
+    <h2 class="med-text italic serif-font pastel grey-text no-margin">A micro  (~5kb) CSS framework that breathes 🔥</h2>
+  </div>
+  <nav>
+    <ul class="no-bullet horizontal-list">
+      <li><a class="button">Docs</a></li>
+      <li><a class="button">Example</a></li>
+      <li><a class="button">GitHub</a></li>
+    </ul>
+  </nav>
+</header>
   <main class="container">
     <h2 class="red-purple gradient-text fancy-font display-big">Classless Styling</h2>
     <p>Dragon CSS styles the main elements of a page with some beautful default styling out of the box - no need to add any classes!</p>
@@ -36,13 +45,14 @@
       <header>
         <h1 class="fancy-font primary-text">Paragraphs</h1>
         <p>Paragraphs have a maximum width, so the text doesn't go on for too long.</p>
+        <p>You can also see how <a href="#">links</a> are styled in this example.</p>
       </header>
       <div>
         <p>
-          A paragraph (from the Greek paragraphos, “to write beside” or
+          A paragraph (from the <a href="#">Greek</a> paragraphos, “to write beside” or
           “written beside”) is a self-contained unit of a discourse in
           writing dealing with a particular point or idea. A paragraph
-          consists of one or more sentences. Though not required by the
+          consists of <a href="#">one or more sentences</a>. Though not required by the
           syntax of any language, paragraphs are usually an expected part
           of formal writing, used to organize longer prose.
         </p>
