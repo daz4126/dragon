@@ -54,3 +54,19 @@
   .gradient-text.red-white-blue,.gradient.red-white-blue{
     background-image: linear-gradient(135deg, var(--red), var(--white),var(--blue));
   }
+
+  .gradient-text.purple-blue,.gradient.purple-blue{
+    background-image: linear-gradient(135deg, var(--neonPurple), var(--neonBlue));
+  }
+
+  .gradient-text.yellow-pink,.gradient.yellow-pink{
+    background-image: linear-gradient(135deg, var(--yellow), var(--pink));
+  }
+
+  .gradient-text.blue-green,.gradient.blue-green{
+    background-image: linear-gradient(135deg, var(--neonBlue), var(--green));
+  }
+
+  .gradient-text.pink-purple,.gradient.pink-purple{
+    background-image: linear-gradient(135deg, var(--neonPink), var(--purple));
+  }

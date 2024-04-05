@@ -126,6 +126,10 @@
   margin: var(--margin) 0;
 }
 
+.margin-auto{
+  margin: auto;
+}
+
 .no-margin {
   margin: 0 !important;
 }
@@ -158,6 +162,14 @@
 
 .no-bullet{
   list-style: none;
+}
+
+.glass{
+  background: rgba(255,255,255,0.3);
+}
+
+.dark-glass{
+  background: rgba(0,0,0,0.3);
 }
 
 .badge {

@@ -28,11 +28,12 @@ button:hover {
   
   button.outline,.button.outline {
     background-color: transparent !important;
-    border-color: var(--button-bg-color);
+    color: var(--button-bg-color);
+    border-color: currentColor;
   }
 
   button.outline:hover,.button.outline:hover{
-    border-color: var(--button-hover-color);
+    color: var(--button-hover-color);
   }
 
   button.small,.button.small{

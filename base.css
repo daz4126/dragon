@@ -97,13 +97,13 @@ kbd {
   white-space: pre-wrap;
   border-radius: 4px;
   padding: 0.2em 0.4em;
-  background-color: var(--darkGrey);
+  background-color: var(--black);
   color: var(--white);
 }
 
 pre {
-  background-color: var(--darkGrey);
-  font-size: 1em;
+  background-color: var(--black);
+  font-size: 1rem;
   padding: 1rem;
   overflow-x: auto;
 }

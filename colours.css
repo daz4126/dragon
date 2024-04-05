@@ -15,6 +15,7 @@
 .pink { background: var(--pink) !important; }
 .brown { background: var(--brown) !important; }
 
+.pastel.grey { background: var(--pastelGrey) !important; }
 .pastel.red { background: var(--pastelRed) !important; }
 .pastel.orange { background: var(--pastelOrange) !important; }
 .pastel.pastel.yellow { background: var(--pastelYellow) !important; }
@@ -24,6 +25,7 @@
 .pastel.pink { background: var(--pastelPink) !important; }
 .pastel.brown { background: var(--pastelBrown) !important; }
 
+.classic.grey { background: var(--classicGrey) !important; }
 .classic.red { background: var(--classicRed) !important; }
 .classic.orange { background: var(--classicOrange) !important; }
 .classic.yellow { background: var(--classicYellow) !important; }

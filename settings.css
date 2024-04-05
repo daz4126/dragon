@@ -59,7 +59,7 @@
     --heading-font: "Bebas Neue";
     --brand-font: "Monoton";
     --fancy-font: "Pacifico";
-    --heading-color: var(--white);
+    --heading-color: var(--text-color);
 
     --margin: 1.2rem;
     --mini-margin: 4px;
@@ -70,12 +70,12 @@
 
     --tab-text-color: var(--text-color);
     --tab-bg--color: none;
-    --tab-hover-color: var(--lightGrey);
+    --tab-hover-color: var(--pastelGrey);
     --tab-active-color: none;
 
     --tag-text-color: var(--fontcolor);
     --tag-bg--color: none;
-    --tag-border-color: var(--lightGrey);
+    --tag-border-color: var(--pastelGrey);
 
     --button-text-color: var(--white);
     --button-bg-color: var(--primary-color);
