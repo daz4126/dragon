@@ -26,13 +26,13 @@ button:hover {
   background-color: var(--button-hover-color);
 }
   
-  button.outline,.button.outline {
+  button.outline,.button.outline, button.clear,.button.clear {
     background-color: transparent !important;
     color: var(--button-bg-color);
     border-color: currentColor;
   }
 
-  button.outline:hover,.button.outline:hover{
+  button.outline:hover,.button.outline:hover, button.clear:hover,.button.clear:hover{
     color: var(--button-hover-color);
   }
 
@@ -44,15 +44,10 @@ button:hover {
   button.pill,.button.pill{
     border-radius: 1.6em;
   }
-  
-  button.clear,.button.clear {
-    background-color: transparent !important;
-    border-color: transparent;
-    color: var(--button-bg-color);
-  }
 
-  button.clear:hover,.button.clear:hover {
-    color: var(--button-hover-color);
+  button.clear,.button.clear
+ {
+    border-color: transparent;
   }
   
   .button:active:not(:disabled),
