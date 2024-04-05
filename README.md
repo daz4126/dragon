@@ -16,5 +16,5 @@ Lots of built-in color classes to easily change text and background colors!
 ## Nifty Components
 Cards, Tabs, Tags can be created with a single class!
 
-## And Some Nifty Utility Classes
+## And Some Helpful Utility Classes
 Add a drop-shadow, make text glow or mute an element by just adding a class!
