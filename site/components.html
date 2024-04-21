@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dragon CSS Buttons</title>
+  <link rel="stylesheet" href="../src/dragon.css">
+</head>
+
+<body>
+  <header class="four-column grid sticky classic gray black-border bottom">
+    <div class="start-2 col-span-2 text-center">
+      <h1 class="no-margin gradient-text"><a href="index.html" class="no-underline">Dragon 🐲 CSS</a></h1>
+      <h2 class="text-s italic serif-font no-margin white-text">A micro  (~5kb) CSS framework that breathes 🔥</h2>
+    </div>
+    <nav class="align-center">
+      <ul class="no-bullet horizontal-list">
+        <li><a href="classless.html" class="small button">Docs</a></li>
+        <li><a href="demo.html" class="small button">Example</a></li>
+        <li><a href="https://github.com/daz4126/dragon" class="small button">GitHub</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="container-s">
+    <nav>
+      <ul class="rounded tabs text-xs">
+        <li><a class="bold white-text" href="classless.html">Classless Styles</a></li>
+        <li><a class="bold white-text" href="typography.html">Typography</a></li>
+        <li><a class="bold white-text" href="colours.html">Colours</a></li>
+        <li><a class="bold white-text" href="borders.html">Borders</a></li>
+        <li><a class="bold white-text" href="grids.html">Grids</a></li>
+        <li><a class="bold white-text" aria-current="page" href="components.html">Components</a></li>
+        <li><a class="bold white-text" href="utilities.html">Utiltiy Classes</a></li>
+      </ul>
+    </nav>
+    <div class="align-center"><h2 class="gradient-text fancy-font display-l line-height-2">Components</h2></div>
+    <p>Dragon CSS includes some useful classes to make styling common components easier.</p>
+    <section>
+        <h1 class="slab-font">Tabs</h1>
+        <p>Tabs can be created by adding a class of "tabs" to a an unordered list of links.</p>
+        <p>The colour of tabs and the hover colour can be set in settings.</p>
+        <p>Adding a class of active will add a subtle highlight to that tab.</p>
+        <h3>Horizontal Tabs</h3>
+        <ul class="tabs">
+            <li><a href="#">Home</a></li>
+            <li><a href="#" class="active">Active</a></li>
+            <li><a href="#">Info</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+          <h3>Rounded Tabs</h3>
+          <p>Adding a modifier class of "rounded" will make the first and last tab rounded.</p>
+          <ul class="rounded tabs">
+            <li><a href="#">Home</a></li>
+            <li><a href="#" class="active">Active</a></li>
+            <li><a href="#">Info</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+          <h3>Vertical Tabs</h3>
+          <p>Tabs can be made vertical by adding a modifier class of "vertical". In the following example the unordered list has a class of "vertcial tabs".</p>
+          <ul class="vertical tabs half-width">
+            <li><a href="#">Home</a></li>
+            <li><a href="#" class="active">Active</a></li>
+            <li><a href="#">Info</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+  </section>
+  <section>
+    <header>
+      <h1 class="slab-font">Tags</h1>
+      <p>Any element can be made to look like a tag by adding the class of "tag".</p>
+    </header>
+    <main>
+        <span class="tag">tag</span><span class="tag">tag</span><span class="tag">tag</span>
+    </main>
+</section>
+<section>
+    <header>
+      <h1 class="slab-font">Card</h1>
+      <p>A container element can be made into a card element by adding the class of "card".</p>
+      <p>A card has padding and a drop shadow to help content stand out.</p>
+
+    </header>
+    <main>
+        <div class="card">
+            <h2>A Card Component</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercit.
+            </p>
+            <div class="align-right">
+              <a href="#!" class="button">Submit</a>
+              <a href="#!" class="button">Cancel</a>
+            </div>
+          </div>
+    </main>
+</section>
+  </main>
+  <footer class="padding pastel grey text-center">
+    <p class="text-xs">Made using Dragon CSS.</p>
+    <p class="text-xs">Another beautifully unconventional product made with 💜 by <a href="https://daz4126.dev">DAZ</a>.</p>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+.primary-border {border: var(--border-width-m) solid var(--primary-color);}
+.secondary-border {border: var(--border-width-m) solid var(--secondary-color);}
+
+.white-border {border: var(--border-width-m) solid var(--white);}
+.grey-border {border: var(--border-width-m) solid var(--grey);}
+.black-border {border: var(--border-width-m) solid var(--black);}
+
+.red-border {border: var(--border-width-m) solid var(--red);}
+.orange-border {border: var(--border-width-m) solid var(--orange);}
+.yellow-border {border: var(--border-width-m) solid var(--yellow);}
+.green-border {border: var(--border-width-m) solid var(--green);}
+.blue-border {border: var(--border-width-m) solid var(--blue);}
+.purple-border {border: var(--border-width-m) solid var(--purple);}
+.pink-border {border: var(--border-width-m) solid var(--pink);}
+.brown-border {border: var(--border-width-m) solid var(--brown);}
+
+.classic.grey-border {border: var(--border-width-m) solid var(--classicGrey);}
+.classic.red-border {border: var(--border-width-m) solid var(--classicRed);}
+.classic.orange-border {border: var(--border-width-m) solid var(--classicOrange);}
+.classic.yellow-border {border: var(--border-width-m) solid var(--classicYellow);}
+.classic.green-border {border: var(--border-width-m) solid var(--classicGreen);}
+.classic.blue-border {border: var(--border-width-m) solid var(--classicBlue);}
+.classic.purple-border {border: var(--border-width-m) solid var(--classicPurple);}
+.classic.pink-border {border: var(--border-width-m) solid var(--classicPink);}
+.classic.brown-border {border: var(--border-width-m) solid var(--classicBrown);}
+
+.neon.red-border {border: var(--border-width-m) solid var(--neonRed);}
+.neon.orange-border {border: var(--border-width-m) solid var(--neonOrange);}
+.neon.yellow-border {border: var(--border-width-m) solid var(--neonYellow);}
+.neon.green-border {border: var(--border-width-m) solid var(--neonGreen);}
+.neon.blue-border {border: var(--border-width-m) solid var(--neonBlue);}
+.neon.purple-border {border: var(--border-width-m) solid var(--neonPurple);}
+.neon.pink-border {border: var(--border-width-m) solid var(--neonPink);}
+.pastel.grey-border {border: var(--border-width-m) solid var(--pastelGrey);}
+.pastel.red-border {border: var(--border-width-m) solid var(--pastelRed);}
+.pastel.orange-border {border: var(--border-width-m) solid var(--pastelOrange);}
+.pastel.yellow-border {border: var(--border-width-m) solid var(--pastelYellow);}
+.pastel.green-border {border: var(--border-width-m) solid var(--pastelGreen);}
+.pastel.blue-border {border: var(--border-width-m) solid var(--pastelBlue);}
+.pastel.purple-border {border: var(--border-width-m) solid var(--pastelPurple);}
+.pastel.pink-border {border: var(--border-width-m) solid var(--pastelPink);}
+.pastel.brown-border {border: var(--border-width-m) solid var(--pastelBrown);}
+
+.thick{ border-width: var(--border-width-l) !important;}
+.thin{ border-width: var(--border-width-s) !important;}
+.no-border{border: none !important;}
+
+.rounded,.rounded-m { border-radius: var(--radius-m);}
+.rounded-s { border-radius: var(--radius-s);}
+.rounded-l { border-radius: var(--radius-l);}
+
+.bottom.primary-border,
+.bottom.secondary-border,
+.bottom.white-border,
+.bottom.grey-border,
+.bottom.black-border,
+.bottom.red-border,
+.bottom.orange-border,
+.bottom.yellow-border,
+.bottom.green-border,
+.bottom.blue-border,
+.bottom.purple-border,
+.bottom.pink-border,
+.bottom.brown-border {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}

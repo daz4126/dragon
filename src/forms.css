@@ -1,6 +1,7 @@
 fieldset {
   padding: 0.5rem 2rem;
   border: 1px solid var(--pastelGrey);
+  border-radius: var(--radius-m);
 }
 
 legend {
@@ -14,9 +15,9 @@ select,
 textarea,
 textarea[type="text"] {
   font-family: inherit;
-  padding: calc(2*var(--mini-padding)) var(--padding);
-  border-radius: var(--radius);
-  border: 1px solid var(--white);
+  padding: var(--padding-xs);
+  border-radius: var(--radius-m);
+  border: 1px solid var(--pastelGrey);
   font-size: 1em;
   transition: all 0.2s ease;
   display: block;
@@ -40,9 +41,8 @@ input:disabled:hover{
 input:not([type="checkbox"], [type="radio"], [type="submit"], [type="color"], [type="button"], [type="reset"], :disabled){
   background: rgba(255,255,255,0.4);
   color: var(--black);
-  border-radius: var(--radius);
-  margin: var(--margin) 0;
-  max-width: 40rem;
+  border-radius: var(--radius-m);
+  margin: var(--margin-m) 0;
 }
 
 input:not([type="checkbox"], [type="radio"], [type="submit"], [type="color"], [type="button"], [type="reset"], :disabled):hover,
@@ -87,16 +87,40 @@ textarea.warning {
 }
 
 label.error, label.success,label.warning{
-  background: var(--red);
-  color: var(--white);
-  padding: var(--mini-padding) var(--padding);
-  border-radius: var(--radius);
+  color: var(--red);
+  border-bottom: var(--border-width-m) dotted var(--red);
+  margin: 0;
 }
 
 label.success{
-  background: var(--green);
+  color: var(--green);
+  border-color: var(--green);
 }
 
 label.warning{
-  background: var(--yellow);
+  color: var(--yellow);
+  border-color: var(--yellow);
+}
+
+.grouped {
+  display: flex;
+  align-items: center;
+}
+
+.grouped > *:not(:last-child) {
+  margin-right: var(--margin-s);
+}
+
+.grouped.no-gap > * {
+  margin: 0 0 0 -1px !important;
+  border-radius: 0 !important;
+}
+
+.grouped.no-gap > *:first-child {
+  margin: 0 !important;
+  border-radius: var(--radius-m) 0 0 var(--radius-m) !important;
+}
+
+.grouped.no-gap > *:last-child {
+  border-radius: 0 var(--radius-m) var(--radius-m) 0 !important;
 }

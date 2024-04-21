@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-size: 62.5%;
+  font-size: var(--base-font-size);
   line-height: 1.15;
   text-size-adjust: 100%;
 }
@@ -16,7 +16,6 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.6;
-  font-size: var(--font-size);
   color: var(--text-color);
   font-family: var(--font-family);
   margin: 0;
@@ -27,12 +26,12 @@ img,
 picture {
   max-width: 100%;
   display: block;
-  border-radius: var(--radius);
+  border-radius: calc(2*var(--radius-unit));
 }
 
 p > img {
   float: left;
-  margin: 0 var(--margin) var(--margin) 0;
+  margin: 0 var(--margin-m) var(--margin-m) 0;
 }
 
 a:not([class]) {
@@ -40,18 +39,21 @@ a:not([class]) {
 }
 
 a {
-  color: var(--secondary-color);
-  text-decoration: none;
+  color: var(--link-text-color);
+  text-decoration: unerline;
+  font-weight: bold;
   transition: text-decoration-color 0.3s ease;
 
 }
 
 a:hover:not(.button) {
-  text-decoration: underline;
+  color: var(--link-hover-color);
+  text-decoration: none;
 }
 
 a:visited:not(.button) {
   opacity: 0.8;
+  color: var(--link-visited-color);
 }
 
 button {
@@ -59,16 +61,15 @@ button {
 }
 
 p {
-  margin: 0 0 var(--margin);
-  max-width: 54em;
+  margin: var(--margin-xs) 0;
+  line-height: 1.6;
 }
 
 blockquote {
-  background-color: var(--lightGrey);
   padding: 1.5rem 2rem;
   font-family: var(--serif-font);
   font-size: 1.2em;
-  border-left: 5px solid var(--classicGrey);
+  border-left: 5px solid var(--text-color);
   max-width: 36em;
 }
 
@@ -95,7 +96,7 @@ code,
 kbd {
   font-size: 90%;
   white-space: pre-wrap;
-  border-radius: 4px;
+  border-radius: var(--radius-s);
   padding: 0.2em 0.4em;
   background-color: var(--black);
   color: var(--white);
@@ -103,6 +104,7 @@ kbd {
 
 pre {
   background-color: var(--black);
+  border-radius: var(--radius-m);
   font-size: 1rem;
   padding: 1rem;
   overflow-x: auto;

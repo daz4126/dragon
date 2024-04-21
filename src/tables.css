@@ -1,6 +1,6 @@
 table {
     width: 100%;
-    border: 1px solid var(--pastelGrey);
+    border: 1px solid var(--text-color);
     border-collapse: collapse;
     border-spacing: 0;
     text-align: left;
@@ -8,15 +8,14 @@ table {
   }
   
   table tr:nth-of-type(2n) {
-    background-color: var(--text-color);
-    color: var(--bg-color);
+    background-color: var(--grey);
   }
   
   td,
   th {
     vertical-align: middle;
     padding: 1.2rem 0.4rem;
-    border: 1px solid var(--pastelGrey);
+    border: 1px solid var(--text-color);
   }
   
   thead {
@@ -25,6 +24,6 @@ table {
   }
   
   tfoot {
-    background: var(--secondary-color);
+    background: var(--primary-color);
     color: var(--white);
   }

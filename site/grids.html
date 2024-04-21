@@ -4,197 +4,223 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Dragon CSS Grids</title>
-    <link rel="stylesheet" href="dragon.css">
+  <title>Dragon CSS Buttons</title>
+  <link rel="stylesheet" href="../src/dragon.css">
 </head>
 
 <body>
-  <header class="sticky top black padding-horizontal">
-    <h1 class="gradient-text">Dragon 🐲 CSS</h1>
+  <header class="four-column grid sticky classic gray black-border bottom">
+    <div class="start-2 col-span-2 text-center">
+      <h1 class="no-margin gradient-text"><a href="index.html" class="no-underline">Dragon 🐲 CSS</a></h1>
+      <h2 class="text-s italic serif-font no-margin white-text">A micro  (~5kb) CSS framework that breathes 🔥</h2>
+    </div>
+    <nav class="align-center">
+      <ul class="no-bullet horizontal-list">
+        <li><a href="classless.html" class="small button">Docs</a></li>
+        <li><a href="demo.html" class="small button">Example</a></li>
+        <li><a href="https://github.com/daz4126/dragon" class="small button">GitHub</a></li>
+      </ul>
+    </nav>
   </header>
-  <main>
-<h2 class="red-white-blue gradient-text fancy-font display-big padding">Grids</h2>
-<p>Dragon has a simple grid system that allows you to create complex but repsonsive layouts with just a few classes.</p><h2 class="neon blue-text glow fancy-font padding-horizontal">Basic Grid</h2>
+  <main class="container-s">
+    <nav>
+      <ul class="rounded tabs text-xs">
+        <li><a class="bold white-text" href="classless.html">Classless Styles</a></li>
+        <li><a class="bold white-text" href="typography.html">Typography</a></li>
+        <li><a class="bold white-text" href="colours.html">Colours</a></li>
+        <li><a class="bold white-text" href="borders.html">Borders</a></li>
+        <li><a class="bold white-text" aria-current="page" href="grids.html">Grids</a></li>
+        <li><a class="bold white-text" href="components.html">Components</a></li>
+        <li><a class="bold white-text" href="utilities.html">Utiltiy Classes</a></li>
+      </ul>
+    </nav>
+    <div class="align-center"><h2 class="gradient-text fancy-font display-l line-height-2">Grids</h2></div>
+<p>Dragon has a simple grid system that allows you to create complex but repsonsive layouts with just a few classes.</p>
+<h2 class="slab-font">Basic Grid</h2>
 <p>Adding a class of "grid" to a containing element will create a 3-column grid.</p>
 <p>No other classes are needed.</p>
 <p>The default number of columns can be changed in settings.</p>
 <div class="grid">
-  <div class="card">
+  <div class="card pastel green">
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
   </div>
-    <div class="card">
+    <div class="card pastel purple">
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
   </div>
-    <div class="card">
+    <div class="card pastel yellow">
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
   </div>
-    <div class="card">
+    <div class="card pastel blue">
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
   </div>
-    <div class="card">
+    <div class="card pastel pink">
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
   </div>
-    <div class="card">
+    <div class="card pastel orange">
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
   </div>
-    <div class="card">
+    <div class="card pastel gray">
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
   </div>
-    <div class="card">
+    <div class="card pastel brown">
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
     </div>
-    <div class="card">
+    <div class="card pastel red">
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
     </div>
 </div>
-<h2 class="neon pink-text glow fancy-font padding-horizontal">Multi-Column Grids</h2>
-<p>Use classes of "two","three","four","five" and "six" along with "columns" to change the number of columns in the grid.</p>
-<p>For example the grid below has a class of "four column grid".</p>
-<div class="four column grid">
-  <div class="card">
+<h2 class="slab-font">Multi-Column Grids</h2>
+<p>Use classes of "two-column","three-column","four-column","five-column" and "six-column" along with "grid" to change the number of columns in the grid.</p>
+<p>For example the grid below has a class of "four-column grid".</p>
+<div class="four-column grid">
+  <div class="card pastel grey">
 		<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
   </div>
-    <div class="card">
+    <div class="card  pastel blue">
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
   </div>
-  <div class="card">
+  <div class="card  pastel green">
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
   </div>
-  <div class="card">
+  <div class="card  pastel purple">
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
   </div>
-  <div class="card">
+  <div class="card  pastel pink">
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
   </div>
-  <div class="card">
+  <div class="card  pastel orange">
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
   </div>
-  <div class="card">
+  <div class="card  pastel red">
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
   </div>
-  <div class="card">
+  <div class="card  pastel yellow">
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
   </div>
   </div>
-  <h2 class="neon green-text glow fancy-font padding-horizontal">Column Spans</h2>
+  <h2 class="slab-font">Column Spans</h2>
   <p>You can make an element span more columns by using the class "col-span-n", where n is the number of columns you want it to span.</p>
   <p>For example, the first column has a class of "col-span-2" and the column in the bottom row has a class of "col-span-3".</p>
   <div class="grid">
-    <div class="card col-span-2">
+    <div class="card col-span-2 pastel yellow">
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
     </div>
-      <div class="card">
+      <div class="card pastel pink">
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
     </div>
-    <div class="card">
+    <div class="card pastel purple">
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
     </div>
-    <div class="card">
+    <div class="card pastel blue">
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
     </div>
-    <div class="card">
+    <div class="card pastel gray">
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
     </div>
-    <div class="card col-span-3">
+    <div class="card col-span-3 pastel brown">
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
     </div>
     </div>
 
 
-  <h2 class="newon orange-text glow fancy-font padding-horizontal">Row Spans</h2>
+  <h2 class="slab-font">Row Spans</h2>
   <p>You can make an element span more rows by using the class "row-span-n", where n is the number of rows you want it to span.</p>
   <p>For example, the first column has a class of "row-span-3".</p>
   <div class="grid">
-    <div class="card row-span-3">
+    <div class="card row-span-3 pastel orange">
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
     </div>
-      <div class="card">
+      <div class="card pastel green">
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
     </div>
-    <div class="card">
+    <div class="card pastel blue">
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
     </div>
-    <div class="card">
+    <div class="card pastel pink">
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
     </div>
-    <div class="card">
+    <div class="card pastel brown">
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
     </div>
-    <div class="card">
+    <div class="card pastel yellow">
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
     </div>
-    <div class="card">
+    <div class="card pastel purple">
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
     </div>
     </div>
 
-  <h2 class="neon red-text glow fancy-font padding-horizontal">Starting Column</h2>
+  <h2 class="slab-font">Starting Column</h2>
   <p>You can make an element start in a specific column by using the class "start-n", where n is the number of the column you want it to start in.</p>
   <p>For example, the first column has a class of "start-2" and the last element has a class of "start-3".</p>
   <div class="grid">
-    <div class="card start-2">
+    <div class="card start-2 pastel brown">
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
     </div>
-      <div class="card">
+      <div class="card pastel white">
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
     </div>
-    <div class="card">
+    <div class="card pastel gray">
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
     </div>
-    <div class="card">
+    <div class="card pastel yellow">
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
     </div>
-    <div class="card">
+    <div class="card pastel green">
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
     </div>
-    <div class="card start-3">
+    <div class="card start-3 pastel blue">
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
     </div>
     </div>
 
 
-  <h2 class="neon purple-text glow fancy-font padding-horizontal">Gaps</h2>
-  <p>You can change the size of the gap between elements in the grid by adding the classes "big-gap", "small-gap" or "no-gap" to the container element that has the class of "grid".</p>
-  <h3>.big-gap</h3>
-<div class="grid big-gap">
-    <div class="card">
+  <h2 class="slab-font">Gaps</h2>
+  <p>You can change the size of the gap between elements in the grid by adding the classes "gap-xs", "gap-s", "gap-m" (the default), "gap-l", "gap-xl" or "no-gap" to the container element that has the class of "grid".</p>
+  <h3>.gap-s</h3>
+<div class="grid gap-s">
+    <div class="card pastel blue">
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
     </div>
-      <div class="card">
+      <div class="card pastel green">
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
     </div>
-      <div class="card">
+      <div class="card pastel purple">
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
     </div>
     </div>
-    <h3>.small-gap</h3>
+    <h3>.gap-xl</h3>
 
-    <div class="grid small-gap">
-      <div class="card">
+    <div class="grid gap-xl">
+      <div class="card pastel red">
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
       </div>
-        <div class="card">
+        <div class="card pastel green">
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
       </div>
-        <div class="card">
+        <div class="card pastel blue">
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
       </div>
       </div>
 <h3>.no-gap</h3>
       <div class="grid no-gap">
-        <div class="card">
+        <div class="card pastel orange">
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
         </div>
-          <div class="card">
+          <div class="card pastel pink">
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
         </div>
-          <div class="card">
+          <div class="card pastel yellow">
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci illo nobis quisquam. Officiis earum culpa sit in consequuntur!</p>
         </div>
         </div>
 
 
   </main>
+  <footer class="padding pastel grey text-center">
+    <p class="text-xs">Made using Dragon CSS.</p>
+    <p class="text-xs">Another beautifully unconventional product made with 💜 by <a href="https://daz4126.dev">DAZ</a>.</p>
+  </footer>
 </body>
 
 </html>

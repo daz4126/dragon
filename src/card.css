@@ -1,0 +1,13 @@
+.card {
+  padding: var(--padding-m);
+  border-radius: var(--radius-l);
+  box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+}
+
+.card > *:first-child {
+  margin-top: 0;
+}
+
+.card > *:last-child {
+  margin-bottom: 0;
+}

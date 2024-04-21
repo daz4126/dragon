@@ -3,8 +3,9 @@
   border: 1px solid var(--tag-border-color);
   background: var(--tag-bg-color);
   color: var(--tag-text-color);
-  border-radius: 5px;
-  padding: var(--mini-padding);
+  border-radius: 4px;
+  padding: 4px 0.6rem;
   font-size: 0.8em;
-  margin: var(--mini-margin);
+  margin: var(--margin-xs);
+  line-height: 1.2;
 }

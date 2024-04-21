@@ -1,0 +1,121 @@
+:root {
+    --primary-color: var(--slate);
+    --secondary-color: var(--blue);
+    --bg-color: var(--white);
+    --text-color: var(--classicGrey);
+    --heading-font: "Bebas Neue";
+    --heading-color: var(--primary-color);
+    --gradient: linear-gradient(135deg,var(--neonGreen), var(--teal), var(--yellow),var(--orange),var(--neonRed),var(--purple),var(--neonBlue));
+
+    --link-text-color: var(--blue);
+    --link-hover-color: var(--classicBlue);
+    --link-visited-color: var(--purple);
+
+    --button-text-color: var(--bg-color);
+    --button-bg-color: var(--blue);
+    --button-hover-color: var(--classicBlue);
+    --button-font: var(--sans-font);
+
+    --tab-text-color: var(--text-color);
+    --tab-bg--color: var(--primary-color);
+    --tab-border-color: var(--bg-color);
+    --tab-hover-color: var(--secondary-color);
+    --tab-active-color: none;
+
+    --tag-text-color: var(--fontcolor);
+    --tag-bg--color: none;
+    --tag-border-color: var(--pastelGrey);
+
+    --badge-text-color: var(--white);
+    --badge-bg-color: var(--red);
+
+    --grid-columns: 3;
+
+    --white: #f6f7f8;
+    --black: #222;
+    --grey: #a4a5a6;
+    --gray: var(--grey);
+
+    --red: #c20000;
+    --blue: #0099dd;
+    --green: #3c8562;
+    --yellow: #f6e548;
+    --orange: #ff6900;
+    --pink: #ffb3db;
+    --purple: #5f52a1;
+    --brown: #5d3c2f;
+    
+    --pastelWhite: #f6f7e8;
+    --pastelBlack: #444;
+    --pastelRed: #f97e84;
+    --pastelOrange: #ff9d6e;
+    --pastelYellow: #f2f0a1;
+    --pastelGreen: #c8fbd2;
+    --pastelBlue: #c2dff7;
+    --pastelPink: #f3c6d4;
+    --pastelGrey: #e4e3e2;
+    --pastelPurple: #c7b1dd;
+    --pastelBrown: #d5bba9;
+
+    --classicWhite: #d6d7d8;
+    --classicBlack: #111;
+    --classicGrey: #535557;
+    --classicRed: #943a31;
+    --classicBlue: #004983;
+    --classicGreen: #557764;
+    --classicYellow: #cead4d;
+    --classicOrange: #d46b00;
+    --classicPink: #de9cbb;
+    --classicPurple: #855778;
+    --classicBrown: #81694e;
+
+    --neonRed: #f13943;
+    --neonOrange: #f7a100;
+    --neonYellow: #d8f640;
+    --neonGreen: #35f138;
+    --neonBlue: #13fbfb;
+    --neonPink: #fc6df7;
+    --neonPurple: #aa00d5;
+
+    --slate: #92a2b9;
+    --maroon: #660105;
+    --aqua: #4ecab8;
+    --jade: #00adb9;
+    --teal: #306c6d;
+
+    --base-font-size: 16px;
+    --font-family: var(--sans-font);
+    --serif-font: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+    --sans-font: -apple-system, "BlinkMacSystemFont", "Avenir",
+      "Avenir Next", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+      "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    --mono-font: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+    --brand-font: "Monoton";
+    --fancy-font: "Pacifico";
+    --slab-font:  "Holtwood One SC", serif;
+
+
+    --margin-unit: 0.5rem;
+    --margin-xs: var(--margin-unit);
+    --margin-s: calc(2*var(--margin-unit));
+    --margin-m: calc(3*var(--margin-unit));
+    --margin-l: calc(4*var(--margin-unit));
+    --margin-xl: calc(5*var(--margin-unit));
+
+    --padding-unit: 0.5rem;
+    --padding-xs: var(--padding-unit);
+    --padding-s: calc(2*var(--padding-unit));
+    --padding-m: calc(3*var(--padding-unit));
+    --padding-l: calc(4*var(--padding-unit));
+    --padding-xl: calc(5*var(--padding-unit));
+    
+    --border-unit: 1px;
+    --border-width-s: var(--border-unit);
+    --border-width-m: calc(3*var(--border-unit));
+    --border-width-l: calc(6*var(--border-unit));
+
+    --radius-unit: 4px;
+    --radius-s: var(--radius-unit);
+    --radius-m: calc(2*var(--radius-unit));
+    --radius-l: calc(3*var(--radius-unit));
+  }

@@ -5,12 +5,13 @@
     --dragon-green: #2da15a;
     --dragon-orange: #e28c2f;
 
-    --white: #e6e7e8;
+    --white: #f6f7f8;
     --black: #222;
     --grey: #939597;
+    --gray: var(--grey);
 
     --red: #c20000;
-    --blue: #004983;
+    --blue: #0082cd;
     --green: #3c8562;
     --yellow: #f6e548;
     --orange: #ff6900;
@@ -18,16 +19,20 @@
     --purple: #5f52a1;
     --brown: #5d3c2f;
     
+    --pastelWhite: #f6f7e8;
+    --pastelBlack: #444;
     --pastelRed: #f97e84;
     --pastelOrange: #ff9d6e;
     --pastelYellow: #f2f0a1;
     --pastelGreen: #c8fbd2;
-    --pastelBlue: #94b0d2;
+    --pastelBlue: #004983;
     --pastelPink: #f3c6d4;
     --pastelGrey: #c3c5c7;
     --pastelPurple: #c7b1dd;
     --pastelBrown: #d5bba9;
 
+    --classicWhite: #d6d7d8;
+    --classicBlack: #111;
     --classicGrey: #535557;
     --classicRed: #943a31;
     --classicBlue: #414369;
@@ -48,7 +53,7 @@
 
     --gradient: linear-gradient(135deg, var(--green), var(--neonYellow), var(--neonRed));
 
-    --font-size: 1.6rem;
+    --base-font-size: 16px;
     --text-color: var(--white);
     --font-family: var(--sans-font);
     --serif-font: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
@@ -62,29 +67,33 @@
     --heading-color: var(--text-color);
 
     --margin: 1.2rem;
-    --mini-margin: 4px;
-    --mini-padding: 0.4rem;
+    --mini-margin: 0.5rem;
+    --mini-padding: 0.5rem;
     --padding: 2rem;
     --border-width: 3px;
-    --radius: 1.4rem;
+    --radius: 12px;
+    --mini-radius: 4px;
+
+    --link-text-color: var(--primary-color);
+    --link-hover-color: var(--secondary-color);
+
+    --button-text-color: var(--bg-color);
+    --button-bg-color: var(--primary-color);
+    --button-hover-color: var(--secondary-color);
 
     --tab-text-color: var(--text-color);
-    --tab-bg--color: none;
-    --tab-hover-color: var(--pastelGrey);
+    --tab-bg--color: var(--primary-color);
+    --tab-border-color: var(--bg-color);
+    --tab-hover-color: var(--secondary-color);
     --tab-active-color: none;
 
     --tag-text-color: var(--fontcolor);
     --tag-bg--color: none;
     --tag-border-color: var(--pastelGrey);
 
-    --button-text-color: var(--white);
-    --button-bg-color: var(--primary-color);
-    --button-hover-color: var(--secondary-color);
-
     --badge-text-color: var(--white);
     --badge-bg-color: var(--red);
 
     --grid-columns: 3;
-	  --grid-min-width: 20rem;
-	  --grid-gap: 2rem;
+	  --grid-gap: var(--padding);
   }

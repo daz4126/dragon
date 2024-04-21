@@ -5,29 +5,40 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Dragon CSS Buttons</title>
-    <link rel="stylesheet" href="dragon.css">
+  <link rel="stylesheet" href="../src/dragon.css">
 </head>
 
 <body>
-  <header class="four column grid sticky black classic red-border bottom">
-  <div class="start-2 col-span-2 text-center">
-    <h1 class="gradient-text no-margin">Dragon 🐲 CSS</h1>
-    <h2 class="med-text italic serif-font pastel grey-text no-margin">A micro  (~5kb) CSS framework that breathes 🔥</h2>
-  </div>
-  <nav>
-    <ul class="no-bullet horizontal-list">
-      <li><a class="button">Docs</a></li>
-      <li><a class="button">Example</a></li>
-      <li><a class="button">GitHub</a></li>
-    </ul>
-  </nav>
-</header>
-  <main class="container">
-    <h2 class="purple-blue  gradient-text fancy-font display-big">Classless Styling</h2>
+  <header class="four-column grid sticky classic gray black-border bottom">
+    <div class="start-2 col-span-2 text-center">
+      <h1 class="no-margin gradient-text"><a href="index.html" class="no-underline">Dragon 🐲 CSS</a></h1>
+      <h2 class="text-s italic serif-font no-margin white-text">A micro  (~5kb) CSS framework that breathes 🔥</h2>
+    </div>
+    <nav class="align-center">
+      <ul class="no-bullet horizontal-list">
+        <li><a href="classless.html" class="small button">Docs</a></li>
+        <li><a href="demo.html" class="small button">Example</a></li>
+        <li><a href="https://github.com/daz4126/dragon" class="small button">GitHub</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="container-s">
+    <nav>
+      <ul class="rounded tabs text-xs">
+        <li><a class="bold white-text" aria-current="page" href="classless.html">Classless Styles</a></li>
+        <li><a class="bold white-text" href="typography.html">Typography</a></li>
+        <li><a class="bold white-text" href="colours.html">Colours</a></li>
+        <li><a class="bold white-text" href="borders.html">Borders</a></li>
+        <li><a class="bold white-text" href="grids.html">Grids</a></li>
+        <li><a class="bold white-text" href="components.html">Components</a></li>
+        <li><a class="bold white-text" href="utilities.html">Utiltiy Classes</a></li>
+      </ul>
+    </nav>
+    <div class="align-center"><h2 class="gradient-text fancy-font display-l line-height-2">Classless Styling</h2></div>
     <p>Dragon CSS styles the main elements of a page with some beautful default styling out of the box - no need to add any classes!</p>
     <article>
       <header>
-        <h1 class="fancy-font primary-text">Headings</h1>
+        <h1 class="slab-font">Headings</h1>
         <p>Headings are are set to the Bebas Neue font and are sized according to the level of heading.</p>
         <p>The font and colour can be changed in the settings.</p>
 
@@ -43,7 +54,7 @@
     </article>
     <article>
       <header>
-        <h1 class="fancy-font primary-text">Paragraphs</h1>
+        <h1 class="slab-font">Paragraphs</h1>
         <p>Paragraphs have a maximum width, so the text doesn't go on for too long.</p>
         <p>You can also see how <a href="#">links</a> are styled in this example.</p>
       </header>
@@ -57,13 +68,13 @@
           of formal writing, used to organize longer prose.
         </p>
         <header>
-        <h1 class="fancy-font primary-text">Images</h1>
+        <h1 class="slab-font">Images</h1>
         <p>Images are made block-level, rounded and given a drop shadow.</p>
         <p>They also have a maximum width of 100% to stop them flowing over the page.</p>
       </header>
         <img src="https://picsum.photos/id/29/600" alt="A stock image">
         <header>
-        <h1 class="fancy-font primary-text">Paragraphs & Images</h1>
+        <h1 class="slab-font">Paragraphs & Images</h1>
         <p>Images inside a paragraph will automatically be floated to the left.</p>
       </header>
                 <p>
@@ -80,7 +91,7 @@
     </article>
     <article>
       <header>
-        <h1 class="fancy-font primary-text">Blockquotes</h1>
+        <h1 class="slab-font">Blockquotes</h1>
       </header>
       <div>
         <blockquote>
@@ -100,21 +111,21 @@
     </article>
     <article>
       <header>
-        <h1 class="fancy-font primary-text">Lists</h1>
+        <h1 class="slab-font">Lists</h1>
       </header>
       <div>
-        <h3 class="fancy-font secondary-text">Definition list</h3>
+        <h3>Definition list</h3>
         <dl>
           <dt>Definition List Title</dt>
           <dd>This is a definition list division.</dd>
         </dl>
-        <h3 class="fancy-font secondary-text">Ordered List</h3>
+        <h3>Ordered List</h3>
         <ol>
           <li>List Item 1</li>
           <li>List Item 2</li>
           <li>List Item 3</li>
         </ol>
-        <h3 class="fancy-font secondary-text">Unordered List</h3>
+        <h3>Unordered List</h3>
         <ul>
           <li>List Item 1</li>
           <li>List Item 2</li>
@@ -125,7 +136,7 @@
     </article>
     <article>
       <header>
-        <h1 class="fancy-font primary-text">Tables</h1>
+        <h1 class="slab-font">Tables</h1>
         <p>Tables have coloured headers and footers (based on the primary and secondary colours in settings).</p>
         <p>They are also striped by default.</p>
       </header>
@@ -197,9 +208,9 @@
 
   <section>
     <header>
-      <h1 class="fancy-font primary-text">Forms</h1>
+      <h1 class="slab-font">Forms</h1>
     </header>
-    <form>
+    <form class="two-thirds-width margin-auto-x">
       <fieldset>
         <legend>Input fields</legend>
         <p>
@@ -281,7 +292,7 @@
             disabled
           />
         </p>
-        <p>
+        <p class="grouped no-gap">
           <input
             type="search"
             name="input__text6"
@@ -292,7 +303,7 @@
             <img src="https://icongr.am/feather/search.svg?size=16" />
           </button>
         </p>
-        <p>
+        <p class="grouped">
           <input
             type="text"
             name="input__text7"
@@ -305,7 +316,7 @@
             id="input__text8"
             placeholder="Password"
           />
-          <button>Submit</button>
+          <button class="small">Submit</button>
         </p>
       </fieldset>
       <fieldset id="forms__select">
@@ -442,19 +453,33 @@
           </form>
           </section>
     <section>
-    <h1 class="fancy-font primary-text">Buttons</h1>
+    <h1 class="slab-font">Buttons</h1>
     <p>Buttons are coloured in the primary colour and the secondary colour on hover, but this can be changed in the settings.</p>
     <p>You can use classes to make buttons "small", "pill" shaped, "outline" only, or "clear".</p>
     <p>You can also make other elements into a button by adding the class of "button"</p>
     <button>Press Me!</button>
     <button class="small">Small Button</button>
+    <button class="big">Big Button</button>
     <button class="pill">Pill Button</button>
     <button type="button" disabled>button disabled</button>
     <a href="#" class="button">a.button</a>
     <a href="#" class="button outline">a.button.outline</a>
     <a href="#" class="button clear">a.button.clear</a>
+    <h3>Grouped Buttons</h3>
+    <p>
+      Wrap the buttons in an element with a class of "grouped no-gap".
+    </p>
+    <div class="grouped no-gap">
+      <button>Press Me!</button>
+      <button>Press Me!</button>
+      <button>Press Me!</button>
+    </div>
   </section>
   </main>
+  <footer class="padding pastel grey text-center">
+    <p class="text-xs">Made using Dragon CSS.</p>
+    <p class="text-xs">Another beautifully unconventional product made with 💜 by <a href="https://daz4126.dev">DAZ</a>.</p>
+  </footer>
 </body>
 
 </html>

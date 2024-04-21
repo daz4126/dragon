@@ -3,19 +3,20 @@
 [type="reset"],
 [type="submit"],
 button {
-  padding: calc(0.5*var(--padding));
+  padding: 0.72rem var(--padding-s);
   color: var(--button-text-color);
   background: var(--button-bg-color);
-  border-radius: 4px;
+  border-radius: var(--radius-s);
   border: 1px solid transparent;
   font-size: var(--font-size);
   line-height: 1;
   text-align: center;
-  transition: background-color 0.5s ease;
+  transition: background-color 0.3s ease;
   text-decoration: none;
   display: inline-block;
   cursor: pointer;
-  margin: var(--mini-margin);
+  margin: var(--margin-xs);
+  font-family: var(--button-font);
 }
 
 .button:hover,
@@ -23,7 +24,7 @@ button {
 [type="reset"]:hover,
 [type="submit"]:hover,
 button:hover {
-  background-color: var(--button-hover-color);
+  opacity: 0.8;
 }
   
   button.outline,.button.outline, button.clear,.button.clear {
@@ -32,30 +33,30 @@ button:hover {
     border-color: currentColor;
   }
 
-  button.outline:hover,.button.outline:hover, button.clear:hover,.button.clear:hover{
-    color: var(--button-hover-color);
+  button.outline:hover,.button.outline:hover {
+    background-color: var(--button-bg-color) !important;
+    color: var(--button-text-color);
+    transition: background-color 0s ease;
   }
 
   button.small,.button.small{
-    font-size: calc(0.8*var(--font-size));
-    padding: 5px;
+    padding: var(--padding-xs);
+    font-size: calc(0.7*var(--base-font-size));
+  }
+
+  button.big,.button.big{
+    padding: var(--padding-m);
+    font-size: calc(1.4*var(--base-font-size));
+    border-radius: var(--radius-l);
   }
 
   button.pill,.button.pill{
-    border-radius: 1.6em;
+    border-radius: 1.6rem;
   }
 
   button.clear,.button.clear
  {
     border-color: transparent;
-  }
-  
-  .button:active:not(:disabled),
-  [type="button"]:active:not(:disabled),
-  [type="reset"]:active:not(:disabled),
-  [type="submit"]:active:not(:disabled),
-  button:active:not(:disabled) {
-    transform: scale(0.98);
   }
 
   button:disabled,

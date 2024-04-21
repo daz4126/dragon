@@ -1,6 +1,26 @@
-.wrapper,.container,.box{
-  padding: var(--padding);
+.wrapper,.container,.box,.container-s,.container-m,.container-l{
+  padding: var(--padding-m);
+  margin: 0 auto;
+  width: 100%;
 }
+
+.container-s{
+  max-width: 800px;
+}
+.container-m{
+  max-width: 1000px;
+}
+.container-l{
+  max-width: 1400px;
+}
+
+@media screen and (min-width: 600px) {
+ .container{ max-width: 800px; }
+}
+
+@media screen and (min-width: 1000px) {
+  .container{ max-width: 1200px; }
+ }
 
 .float-end,.float-right {
   float: right !important;
@@ -19,25 +39,26 @@
   width: 100% !important;
 }
 
-.three-quarter-width {
-  width: 75% !important;
-}
+@media screen and (min-width: 600px) {
+  .three-quarter-width {
+    width: 75% !important;
+  }
 
-.half-width {
-  width: 50% !important;
-}
+  .half-width {
+    width: 50% !important;
+  }
 
-.third-width {
-  width: 33.33% !important;
-}
+  .third-width {
+    width: 33.33% !important;
+  }
 
-.quarter-width {
-  width: 25% !important;
-}
+  .two-thirds-width{
+    width: 66.67% !important;
+  }
 
-.centered{
-  margin-left: auto;
-  margin-right: auto;
+  .quarter-width {
+    width: 25% !important;
+  }
 }
 
 .align-vertical {
@@ -99,39 +120,62 @@
 }
 
 .padding {
-  padding: var(--padding);
+  padding: var(--padding-m);
 }
 
-.padding-horizontal {
-  padding: 0 var(--padding);
+.padding-x {
+  padding: 0 var(--padding-m);
 }
 
-.padding-vertical {
-  padding: var(--padding) 0;
+.padding-y {
+  padding: var(--padding-m) 0;
 }
 
 .no-padding {
   padding: 0 !important;
 }
 
+.no-padding-x {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.no-padding-y {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
 .margin {
-  margin: var(--margin);
+  margin: var(--margin-m);
 }
 
-.margin-horizontal {
-  margin: 0 var(--margin);
+.margin-x {
+  margin: 0 var(--margin-m);
 }
 
-.margin-vertical {
-  margin: var(--margin) 0;
+.margin-y {
+  margin: var(--margin-m) 0;
 }
 
 .margin-auto{
-  margin: auto;
+  margin: auto !important;
+}
+
+.margin-auto-x{
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
 .no-margin {
   margin: 0 !important;
+}
+.no-margin-x {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+.no-margin-y {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
 }
 
 .pointer {
@@ -162,6 +206,7 @@
 
 .no-bullet{
   list-style: none;
+  padding-left: 0;
 }
 
 .glass{
