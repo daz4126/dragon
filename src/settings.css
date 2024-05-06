@@ -3,7 +3,7 @@
     --secondary-color: var(--blue);
     --bg-color: var(--white);
     --text-color: var(--classicGrey);
-    --heading-font: "Bebas Neue";
+    --heading-font: "Jost";
     --heading-color: var(--primary-color);
     --gradient: linear-gradient(135deg,var(--neonGreen), var(--teal), var(--yellow),var(--orange),var(--neonRed),var(--purple),var(--neonBlue));
 
